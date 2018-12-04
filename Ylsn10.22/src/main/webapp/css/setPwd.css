@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+body {
+    background: url(../img/search/body_bg.jpg) repeat scroll 0 0;
+}
+#BAIHE {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 25px 0 0 0;
+    font: 13px/20px microsoft yahei;
+    color: #666;
+    overflow: hidden;
+    zoom: 1;
+}
+#BAIHE #rightCont {
+    margin-bottom: 35px;
+    zoom: 1;
+}
+.myData h3 {
+    height: 75px;
+    line-height: 28px;
+}
+.myData h3 strong {
+    font-size: 22px;
+    color: #333;
+}
+.myData .mainNav {
+    height: 45px;
+    background: url(../img/set/bj_01.gif) repeat-x left bottom;
+    zoom: 1;
+}
+.myData .mainNav a {
+    position: relative;
+    display: block;
+    float: left;
+    width: 163px;
+    height: 43px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333;
+    text-align: center;
+    border-bottom: 2px solid #facabe;
+    zoom: 1;
+    text-decoration: none;
+    outline: none;
+}
+.myData .mainNav a:hover, .myData .mainNav a.active {
+    color: #333;
+    border-bottom: 2px solid #fe4f22;
+    text-decoration: none;
+}
+.myData .mainNav .angleB2 {
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    width: 16px;
+    height: 9px;
+    margin-left: -8px;
+    background-position: 0 -313px;
+    overflow: hidden;
+    zoom: 1;
+}
+.myData .mainNav em{
+    background: url(../img/set/icon_look.gif) no-repeat;
+}
+/****************修改密码**********************/
+.password {
+    padding: 53px 0 0 0;
+    overflow: hidden;
+    zoom: 1;
+    width: 850px;
+}
+.password dl {
+    padding-bottom: 10px;
+    overflow: hidden;
+    zoom: 1;
+
+}
+.password dl dt {
+    float: left;
+    width: 265px;
+    height: 60px;
+    padding-right: 15px;
+    font: 18px/30px "icrosoft Yahei";
+    color: #666;
+    text-align: right;
+    overflow: hidden;
+    zoom: 1;
+}
+.password dl dd {
+    float: left;
+    width: 530px;
+    height: 60px;
+    line-height: 30px;
+    overflow: hidden;
+    zoom: 1;
+}
+.password input {
+    width: 280px;
+    height: 28px;
+}
+input {
+    height: 24px;
+    padding: 0 7px;
+    font-size: 13px;
+    color: #666;
+    border: 1px solid #ddd;
+}
+input {
+    float: left;
+   margin-right: 15px;
+    color: #bdbdbd;
+}
+
+.setting .orange {
+    float: none;
+    width: 174px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 38px;
+    border-radius: 2px;
+}
+.orange {
+    display: block;
+    height: 25px;
+    font: 13px/24px "Microsoft Yahei";
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background: #ff7f00;
+    overflow: hidden;
+    zoom: 1;
+}
+.orange:hover {
+
+    background: #f36500;
+
+}

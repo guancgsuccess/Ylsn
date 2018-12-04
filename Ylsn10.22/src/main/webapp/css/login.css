@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(http://images10.baihe.com/login/201412/bj.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+html, body {
+    height: 100%;
+}
+
+.right_bg {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    height: 100%;
+    background: url(http://images10.baihe.com/login/201412/bj_right.png) no-repeat left top;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.layer {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 100%;
+    height: 570px;
+    margin-top: -285px;
+    overflow: hidden;
+}
+
+form {
+    clear: both;
+}
+
+.cont {
+    float: right;
+    position: absolute;
+    right: 15%;
+    width: 282px;
+    margin-top: 37px;
+    font: 13px/16px "Microsoft YaHei";
+    color: #b02c00;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.cont input {
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.cont .logo {
+    display: block;
+    outline: none;
+}
+
+.cont a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cont .logo img {
+    display: block;
+    margin: 0 auto;
+    border: 0;
+}
+
+.cont .inp01 {
+    width: 282px;
+    height: 42px;
+    margin-top: 20px;
+    padding: 0 20px;
+    font: 18px/40px "Microsoft YaHei";
+    color: #ccc;
+    background: #fff;
+}
+
+.cont .msg {
+    display: block;
+    width: 100%;
+    height: 17px;
+    margin-top: 8px;
+    padding-left: 22px;
+    background: url(http://images10.baihe.com/login/201412/icon.png) no-repeat left -125px;
+}
+
+.cont .refresh {
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.cont .inp02 {
+    float: left;
+    width: 172px;
+    height: 42px;
+    padding: 0 20px;
+    font: 18px/40px "Microsoft YaHei";
+    color: #ccc;
+    background: #fff;
+}
+
+.cont .verImg {
+    display: block;
+    float: left;
+    width: 77px;
+    height: 38px;
+    margin: 4px 5px;
+}
+
+.cont .refresh .icon {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 18px;
+    margin-top: 15px;
+    background: url(http://images10.baihe.com/login/201412/refresh.png) no-repeat;
+    overflow: hidden;
+    text-indent: -99999px;
+}
+
+
+.cont a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cont .line {
+    margin-top: 13px;
+    color: #fff;
+    overflow: hidden;
+}
+
+.cont .line a {
+    float: right;
+}
+
+.cont .line .checkbox {
+    display: inline;
+    float: left;
+    position: relative;
+    top: 2px;
+    margin-right: 8px;
+}
+
+.cont label {
+    cursor: pointer;
+}
+
+.cont .btn {
+    display: block;
+    width: 282px;
+    height: 44px;
+    margin: 16px auto;
+    font: 22px/24px "Microsoft YaHei";
+    color: #600;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background: #ffbf00;
+    border-radius: 3px;
+}
+
+.cont .noLogin {
+    display: inline-block;
+    height: 17px;
+    padding-left: 26px;
+    line-height: 17px;
+    background: url(http://images10.baihe.com/login/201412/icon.png) no-repeat left -125px;
+}
+
+.cont a.register {
+    margin-left: 10px;
+    font: 15px/18px "Microsoft YaHei";
+}
+
+.cont .tel {
+    width: 280px;
+    height: 20px;
+    margin-top: 70px;
+    background: url(http://images10.baihe.com/login/201412/tel.png) no-repeat;
+    text-indent: -99999px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.foot {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    font: 12px/24px "Microsoft YaHei";
+    color: #ccc;
+    text-align: center;
+    z-index: 99;
+}

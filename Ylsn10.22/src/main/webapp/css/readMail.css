@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #f9f9f9;
+    background: url(../img/body_bg.jpg) repeat scroll 0 0;
+
+}
+#head_red_simple_css {
+    background-color: #F03B6E;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#head_red_simple_css .headMain {
+    margin: 0 auto;
+    width: 970px;
+    height: 50px;
+}
+#head_red_simple_css .headMain a.logo {
+    background: url(../img/ReadMail/logo_pink.jpg );
+    float: left;
+    height: 50px;
+    margin: 0 16px 0 0;
+    width: 132px;
+}
+#head_red_simple_css .headMain .logoBar {
+    background: url(../img/ReadMail/bg_headLine1.jpg) no-repeat 0 9px;
+    float: left;
+    height: 34px;
+    padding: 7px 0 0 16px;
+}
+#head_red_simple_css .headMain .pageTitle {
+    color: #FFF;
+    float: left;
+    font: 20px/34px "Microsoft Yahei";
+    height: 34px;
+    padding: 7px 16px 0 0;
+    text-shadow: -1px 1px #A7072B;
+}
+
+.dialog-area {
+    width: 890px;
+    margin: 0 auto;
+}
+
+
+.dialog-detail {
+
+    width: 888px;
+    border: 1px solid #dec9d2;
+    background-color: #fff2f7;
+    height: 134px;
+
+}
+.avatar-pic {
+
+    float: left;
+
+}
+.avatar-pic a {
+
+    display: block;
+    position: relative;
+    width: 110px;
+    height: 134px;
+    overflow: hidden;
+
+}
+.avatar-pic a img {
+
+    width: 110px;
+    height: 134px;
+
+}
+.pic-num {
+    background: url(../img/ReadMail/pic_num.png) no-repeat 0 0;
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    padding-left: 20px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 18px;
+}
+.con-mod {
+
+    float: left;
+    padding: 12px 0 0 20px;
+
+}
+.specific {
+
+    margin-bottom: 12px;
+
+}
+.specific a, .specific .time, .specific .icon-box img {
+
+    vertical-align: middle;
+    display: inline-block;
+
+}
+.name {
+
+    color: #d12c6a;
+    font: bold 14px/normal simsun;
+
+}
+.time {
+    color: #999;
+    padding-left: 6px;
+    font-size: 15px;
+}
+.data {
+
+    color: #5b5b5b;
+    font-size: 14px;
+    margin-bottom: 12px;
+
+}
+.member-like {
+
+    width: 758px;
+
+}
+.like {
+
+    float: left;
+    width: 530px;
+    color: #5b5b5b;
+    font-size: 14px;
+
+}
+.fun {
+
+    float: right;
+    margin-right: 30px;
+
+}
+ol, ul {
+    list-style: none;
+}
+.attention, .report {
+
+    float: left;
+    width: 57px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    margin-left: 6px;
+    text-align: center;
+
+
+}
+
+.fun li a {
+
+    padding: 4px 0;
+    display: block;
+    line-height: normal;
+    color: #999;
+
+}
+.fun li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.fun li.attention i {
+
+    margin-right: 5px;
+
+}
+.fun li.report i {
+    background-position: -17px -8px;
+    margin-left: 3px;
+}
+
+.fun li i {
+
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: url(../img/ReadMail/dialog_icon.gif) no-repeat -17px 0;
+    font-size: 0;
+
+}
+.report-layer {
+
+    display: none;
+    width: 80px;
+    padding: 0 4px;
+    position: absolute;
+    border: 1px solid #e0e0e0;
+    border-top: 0;
+    background: #fff url(../img/ReadMail/stop_bg.gif) no-repeat center top;
+    z-index: 1000;
+
+}
+.report:hover .report-layer{
+    display: list-item;
+}
+.report-layer li {
+    border-bottom: 1px dashed #ccc;
+    text-align: left;
+}
+.report-layer li a {
+    padding: 8px 0 8px 10px;
+    display: inline-block;
+}
+.report-layer li a:hover{
+    color: red;
+}
+.fun li a {
+
+    font-size: 10px;
+    line-height: normal;
+    color: #999;
+
+}
+.ydxj_aq {
+
+    color: #000;
+    font-weight: bold;
+    line-height: 34px;
+
+}
+.ydxj_aq img {
+
+    float: left;
+    margin: 10px 4px 0 0;
+
+}
+.ydxj_aq span {
+
+    letter-spacing: -1px;
+    font-size: 11px;
+}
+.dialog-list {
+    width: 888px;
+    border: 1px solid #e0e0e0;
+    border-bottom: 0;
+    background-color: #fff;
+    margin-top: -1px;
+    position: relative;
+    padding-bottom: 10px;
+    z-index: 1;
+}
+
+.more-report {
+    text-align: center;
+    padding: 12px 0 16px;
+}
+.letter-detail{
+
+    width: 888px;
+}
+.left {
+    padding-left: 20px;
+}
+
+.item {
+    margin: 20px 0;
+}
+.lt-face {
+    float: left;
+}
+
+.lt-face a {
+    display: block;
+    width: 40px;
+    height: 48px;
+}
+.lt-face a img {
+    width: 40px;
+    height: 48px;
+}
+.lt-detail {
+    margin-left: 16px;
+    float: left;
+    max-width: 685px;
+}
+.lt-time {
+    color: #999;
+    margin-bottom: 2px;
+    line-height: normal;
+    font-size: 12px;
+}
+.lt-txt {
+    background-color: #f2fcff;
+    border: 1px solid #b3dae6;
+    color: #333;
+    font: normal 14px/30px simsun;
+    padding: 2px 22px 2px 8px;
+    position: relative;
+    float: left;
+    max-width: 622px;
+}
+.tarr {
+    background: url(../img/ReadMail/dialog_icon.gif) -12px -17px;
+    width: 7px;
+    height: 11px;
+    display: inline-block;
+    position: absolute;
+    top: 13px;
+    left: -7px;
+    font-size: 0;
+}
+/******************右**********************/
+.right {
+    padding-right: 30px;
+}
+.item {
+    margin: 20px 0;
+}
+.right .lt-face {
+    float: right;
+}
+.right .lt-detail {
+    margin-right: 16px;
+    float: right;
+}
+.right .lt-time {
+    text-align: right;
+}
+.right .tarr {
+    background-position: -21px -17px;
+    left: auto;
+    right: -7px;
+}
+
+
+
+
+
+.reading-letter {
+    width: 823px;
+    margin: 10px 20px;
+    padding: 7px 7px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #ff687b;
+    background: #f7f7f7;
+
+}
+.reading-b {
+
+    font-weight: bold;
+
+}
+.replay-mod {
+
+    width: 848px;
+    border: 1px solid #e0e0e0;
+    background-color: #fafafa;
+    padding: 0 20px 10px;
+
+}
+.replay-function{
+    width: 848px;
+    height: 41px;
+}
+.replay-function .selected, .replay-function .on {
+
+    position: relative;
+    background-color: #fdfaf5;
+    border: 1px solid #dbd5c6;
+    border-bottom: 0;
+    color: #000;
+    margin-top: -1px;
+
+}
+.replay-function li {
+
+    float: left;
+    border-left: 1px solid #fafafa;
+    border-right: 1px solid #fafafa;
+    line-height: normal;
+
+}
+.replay-function .topic {
+
+    position: relative;
+    z-index: 9;
+    margin-top: 0;
+
+}
+.replay-function .selected {
+    position: relative;
+    background-color: #fdfaf5;
+    border: 1px solid #dbd5c6;
+    border-bottom: 0;
+    color: #000;
+    margin-top: -1px;
+}
+
+.replay-function li .replay-icon, .replay-function .rate strong {
+
+    display: block;
+    padding: 14px 10px 12px 10px;
+
+}
+.replay-function li a, .replay-function li strong {
+
+    color: #666;
+    text-decoration: none;
+
+}
+.replay-function li a:hover{
+    color: red;
+}
+a {
+
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    outline: none;
+
+}
+.topic .replay-icon i {
+
+    background-position: 0 -102px;
+
+}
+.replay-icon i {
+
+    width: 15px;
+    height: 14px;
+    font-size: 0;
+    display: inline-block;
+    text-align: center;
+    background: url(../img/ReadMail/sign.png) no-repeat;
+    vertical-align: -2px;
+    margin-right: 5px;
+
+}
+.topic-layer {
+    display: none;
+    position: absolute;
+    left: -1px;
+    top: 40px;
+    z-index: 9;
+    width: 846px;
+    border: 1px solid #dbd5c6;
+    border-top: 0;
+    background: #fdfaf5 url(../img/ReadMail/chat.gif) no-repeat center top;
+}
+.chat {
+    margin: 3px 10px;
+}
+.chat span {
+    color: #333;
+    vertical-align: middle;
+    margin-right: 16px;
+    font-size: 12px;
+}
+.replay-function li .chat a {
+    color: #06c;
+    text-decoration: underline;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.state1 a {
+    display: inline-block;
+    margin-bottom: 3px;
+}
+input, button, textarea, select, optgroup, option {
+
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+
+}
+.replay-txt {
+    height: 148px;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    width: 846px;
+}
+.input-txt {
+    border: none;
+    width: 826px;
+    padding: 2px 10px;
+    height: 144px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #666;
+    resize: none;
+}
+.replay-btn {
+
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+    z-index: 10;
+
+}
+.replay-btn ul {
+
+    display: inline-block;
+    position: relative;
+
+}
+
+.replay-btn li {
+
+    float: left;
+    margin-right: 10px;
+    position: relative;
+
+}
+.free {
+
+    background-color: #f5f5f5;
+    border: 1px solid #cecece;
+    color: #666;
+
+}
+.btn {
+
+    display: inline-block;
+    width: 134px;
+    height: 36px;
+    text-align: center;
+    font: bold 14px/36px simsun;
+}
+.clearfix::after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}

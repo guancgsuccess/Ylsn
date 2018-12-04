@@ -1,0 +1,806 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    border: none;
+    display: list-item;
+}
+body{
+    background-color: #eeeeee;
+}
+
+
+.index-top {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    z-index: 3;
+    min-width: 1190px;
+
+}
+.index-debark {
+    position: absolute;
+    z-index: 30;
+    left: 50%;
+    top: 0;
+    width: 520px;
+    margin-left: -589px;
+}
+
+
+.index-info {
+    float: left;
+    width: 520px;
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.index-debNav {
+    background-color: rgba(242, 43, 90, 0.4);
+}
+
+.index-debNav .index-debLiCur {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: #333;
+}
+
+.index-debNav li {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 57px;
+    font-size: 18px;
+    line-height: 56px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.index-regIco, .index-loginIco, .index-luckIco {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.index-debLiCur .index-regIco {
+    background: url(../img/indexImg/newIndex-pngAll.png) no-repeat 0 -160px;
+}
+
+.index-regSpan {
+    display: inline-block;
+    height: 100%;
+    line-height: 54px;
+    vertical-align: middle;
+}
+
+.index-debMain {
+    width: 520px;
+    height: 240px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+.show {
+    display: block !important;
+}
+
+.index-debRegister {
+    padding-top: 44px;
+    text-align: center;
+}
+
+.index-debL1 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #333;
+}
+
+.index-debSpan {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.index-debTime {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: bold;
+    font-style: italic;
+    vertical-align: middle;
+    margin: 0px 7px;
+}
+
+
+.index-officeIco {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(../img/indexImg/newIndex-pngAll.png) no-repeat 0 -228px;
+    vertical-align: middle;
+}
+
+.index-debL2 {
+    font-size: 16px;
+    height: 44px;
+    line-height: 44px;
+    color: #666;
+}
+
+.index-debDot {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #666;
+    vertical-align: top;
+    margin: 20px 16px 0;
+}
+
+.index-debL3 {
+    padding: 14px 0px 0px 0px;
+}
+
+.index-btn {
+    display: inline-block;
+    width: 278px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    background-color: #f22b5a;
+    border-radius: 5px;
+}
+
+.index-debL4 {
+    font-size: 14px;
+    line-height: 46px;
+    color: #666;
+}
+
+.index-debL4 a {
+    color: #2f81d7;
+}
+
+.register-card {
+    width: 520px;
+    height: 301px;
+    background-color: rgba(255, 255, 255, 0.95);
+
+}
+
+.register-top {
+    padding: 16px 21px 17px 16px;
+}
+
+.register-left {
+    position: relative;
+    float: left;
+    width: 104px;
+    height: 104px;
+    padding: 2px;
+    margin-right: 16px;
+    border: 1px solid #d5d4d4;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.register-uploadBtn{
+
+    height: 28px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    padding: 0 13px;
+    border: 1px solid #e6e6e6;
+    border-radius: 28px;
+}
+.register-uploadBtn:hover{
+    color:  #ff4c71;
+}
+.register-pic {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 110px;
+    height: 135px;
+    margin: -12px 0 0 -55px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+.register-right {
+    float: right;
+    width: 357px;
+    text-align: left;
+}
+
+.register-p1 {
+    height: 54px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.register-quit {
+    float: right;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #959494;
+}
+
+.register-txt {
+    font-size: 20px;
+    line-height: 40px;
+    color: #333;
+}
+
+.fn-clear:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+.register-p2 {
+    height: 20px;
+    overflow: hidden;
+}
+
+.register-ico-black1 {
+    background-position: 0 0;
+}
+.register-ico-black2 {
+    background-position: 0 -20px;
+}
+.register-ico-black3 {
+    background-position: 0 -40px;
+}
+.register-ico-black4 {
+    background-position: 0 -60px;
+}
+.register-ico {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    background: url(../img/indexImg/register-AllPng.png) no-repeat 0 0;
+}
+
+.register-p3Txt {
+    color: #ff4c71;
+}
+
+.register-list {
+    float: left;
+    margin-left: 90px;
+    width: 130px;
+    height: 80px;
+}
+
+.register-list .register-listTop {
+    height: 60px;
+    font-size: 16px;
+    line-height: 60px;
+    color: #808080;
+}
+
+.register-list .register-listBtn {
+    display: inline-block;
+    height: 28px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    width: 80px;
+    padding: 0 13px;
+    border: 1px solid #e6e6e6;
+    border-radius: 28px;
+}
+.register-listBtn:hover{
+    color: red;
+}
+.register-bottom {
+    height: 47px;
+}
+
+.register-go {
+    display: block;
+    font-size: 16px;
+    line-height: 47px;
+    color: #ff6c88;
+}
+
+
+.index-slide {
+    position: relative;
+    height: 350px;
+    overflow: hidden;
+}
+
+
+.index-slide .index-slideLists {
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    width: 100%;
+    height: 12px;
+    z-index: 20;
+    text-align: center;
+}
+
+
+
+.index-slide .index-slideLists span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    background: url(../img/indexImg/newIndex-pngAll.png) no-repeat 0 -82px;
+}
+
+.index-slide .index-slideLists span.index-slideCur{
+    background-position: 0 -98px;
+}
+
+.index-floorOne {
+    margin-top: 0;
+    border-radius: 0 0 5px 5px;
+}
+.index-floor {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.index-floor .tab-top {
+    height: 60px;
+}
+
+.index-floor .floot-title1, .index-floor .floot-title2, .index-floor .floot-title3, .index-floor .floot-title4, .index-floor .floot-title5 {
+    float: left;
+    margin-right: 40px;
+}
+
+.index-floor .floot-title1 .floot-ico {
+    background-position: 0 0;
+}
+
+.floot-ico {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 8px 5px 0 0;
+    background: url(../img/indexImg/new-index-all.jpg) no-repeat 0 0;
+}
+
+.floot-headName {
+    font-size: 26px;
+    line-height: 38px;
+    color: #333;
+}
+
+.index-floor .index-more {
+    float: right;
+    margin: 7px 0 0px 0;
+    font-size: 16px;
+    line-height: 30px;
+    color: #888;
+}
+.index-more:hover,.index-group:hover{
+    color: #43b2f8;
+;
+}
+.index-floor .index-more .index-moreIco {
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    overflow: hidden;
+    background: url(../img/indexImg/new-index-all.jpg) no-repeat 0 -120px;
+    vertical-align: top;
+    margin: 11px 0 0 7px;
+}
+.index-group {
+    float: right;
+    margin: 7px 30px 0px 0;
+    font-size: 16px;
+    line-height: 30px;
+    color: #888;
+}
+.index-group .index-groupIco {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    overflow: hidden;
+    background: url(../img/indexImg/new-index-all.jpg) no-repeat 0 -134px;
+    vertical-align: top;
+    margin: 10px 0 0 2px;
+}
+.index-floor .index-tabNav {
+    float: left;
+    height: 32px;
+    margin: 7px 0px 0px 0px;
+}
+
+
+.index-floor .tabNav-a {
+    position: relative;
+    float: left;
+    padding: 0px 10px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #888;
+    overflow: hidden;
+}
+
+.index-floor .tabNav-a:hover {
+    color: #ff4c71;
+}
+
+.index-floor .tabNav-cur {
+    color: #ff4c71;
+}
+.index-floor .tabNav-cur .tabNav-line {
+    display: block;
+}
+
+.tabNav-line {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 40px;
+    height: 2px;
+    background-color: #ff4c71;
+    margin: 0 0 0 -20px;
+    overflow: hidden;
+}
+.show {
+    display: block !important;
+}
+.pal-wrap {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.pal-ul {
+    width: 110%;
+}
+.pal-ul li {
+    position: relative;
+    float: left;
+    width: 222px;
+    height: 296px;
+    margin: 0 10px 10px 0;
+}
+
+.pal-list {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.pal-top {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url(../img/indexImg/loadImg.gif) no-repeat center center;
+}
+.pal-top:hover  .nickname{
+    display: none;
+}
+.pal-top:hover .fn-clear{
+    display: inline-block;
+}
+
+
+.pal-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.pal-name {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 202px;
+    height: 52px;
+    z-index: 3;
+    font-size: 16px;
+    line-height: 52px;
+    color: #fff;
+    text-indent: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+.pal-bottom {
+    display: none;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 123px;
+    background: linear-gradient(transparent, rgba(124, 11, 38, 0.2));
+}
+
+.pal-info {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 20px;
+}
+.pal-info .pal-one {
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.pal-info p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.pal-info .pal-two {
+    height: 48px;
+    font-size: 14px;
+    line-height: 48px;
+    color: #fff;
+}
+.pal-btn {
+    display: block;
+    width: 110px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background-color: #ff4c71;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+.pal-btn:hover{
+    background-color: red;
+}
+.index-ad {
+    width: 100%;
+    height: 100px;
+    background: url(../img/indexImg/loadImg.gif) no-repeat center center;
+
+}
+
+.index-use {
+    margin-top: 20px;
+}
+
+.index-use .use-left {
+    float: left;
+}
+
+.index-use .use-main {
+    width: 595px;
+}
+
+.index-use .use-main h2 {
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    background: #ff537c;
+    border-radius: 5px 5px 0 0;
+}
+
+.index-use .use-bottom {
+    background-color: #f6f6f6;
+}
+
+.index-use .use-box {
+    float: left;
+}
+.index-use .use-box img:hover {
+    border: solid  #ddd ;
+}
+.index-use .use-box img{
+    width: 192px;
+    height: 100px;
+    border: solid  #fff ;
+}
+
+
+.index-use .use-right {
+    float: right;
+}
+
+
+.index-use .use-right h2 {
+    background: #43b2f8;
+}
+
+.index-slide .index-slideLeft {
+    position: absolute;
+    left: 20px;
+    top: 157px;
+    width: 25px;
+    height: 38px;
+    z-index: 10;
+    background: url(../img/indexImg/newIndex-pngAll.png) no-repeat 0 0;
+}
+
+.index-slide .index-slideRight {
+    position: absolute;
+    right: 20px;
+    top: 157px;
+    width: 25px;
+    height: 38px;
+    z-index: 10;
+    background: url(../img/indexImg/newIndex-pngAll.png) no-repeat 0 -40px;
+}
+
+.index-slide .index-slideMain {
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.index-slide .index-slideMain li {
+    text-align: center;
+    float: left;
+    overflow: hidden;
+}
+.index-slide,.index-slide .index-slideMain,.index-slide .index-slideMain li,.index-slide .index-slideMain li a,.index-slide .index-slideMain li img{
+
+    height: 350px;
+    width: 1190px;
+}
+
+.index-slide .index-slideMain:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+.index-slide .index-slideLists span.index-sListCur{
+    background-position: 0 -98px;
+}
+.index-floor {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.index-floor .tab-top {
+    height: 60px;
+}
+
+.bask-right {
+    width: 1133px;
+
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.bask-ul {
+    width: 101%;
+}
+
+.bask-ul .bask-bigBlock {
+    float: left;
+    width: 322px;
+    height: 322px;
+}
+.bask-ul li {
+    float: left;
+    width: 160px;
+    height: 160px;
+    margin: 0 2px 2px 0;
+}
+.bask-block {
+    position: relative;
+}
+li {
+    list-style: none;
+}
+.bask-href {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+}
+.bask-href:hover .bask-info{
+    display: block;
+}
+.bask-list {
+    width: 100%;
+    height: 100%;
+}
+
+.bask-top {
+    height: 100%;
+    background: url(../img/indexImg/loadImg.gif) no-repeat center center;
+    overflow: hidden;
+}
+
+.bask-pic {
+    width: 100%;
+    height: 100%;
+}
+
+.bask-info {
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 45px;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bask-coneter {
+    margin: 3px 10px 0;
+}
+
+.bask-p1 {
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bask-p2 {
+    font-size: 12px;
+    line-height: 20px;
+    color: #a5a5a5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

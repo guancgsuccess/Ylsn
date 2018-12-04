@@ -1,0 +1,16 @@
+.form-group{
+    display: inline-block;
+}
+.myheight,._mydegree,._myincome,._mymarriage{
+    width: 112px;
+    height: 32px;
+    padding: 5px;
+    border:1px solid #dcd8d8;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none; /*去掉下拉箭头*/
+}
+#mm{
+    height: 113px;
+    width: 112px;
+}

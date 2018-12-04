@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+}
+a:hover{
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    border: none;
+}
+ul {
+    list-style: none;
+}
+
+div {
+    display: block;
+}
+.mt15 {
+    margin-top: 15px;
+}
+
+.bg_white {
+    background: #fff;
+}
+.main_1000 {
+    width: 1000px;
+    margin: 0 auto;
+}
+.fn-clear:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.member_box {
+    float: left;
+    width: 730px;
+}
+
+.pic_box {
+    position: relative;
+    float: left;
+    width: 250px;
+}
+
+.credit_no {
+    width: 62px;
+    background-position: 0 -26px;
+}
+
+.credit_bg {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    display: block;
+    height: 26px;
+    line-height: 20px;
+    padding: 0 3px;
+    background: no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.pic_box .pic_btm_bg {
+    position: absolute;
+    z-index: 10;
+    top: 226px;
+    left: 0;
+    width: 250px;
+    height: 24px;
+    opacity: .7;
+    background: #000;
+}
+
+.pic_box .pho_ico {
+    z-index: 11;
+    top: 226px;
+    left: 10px;
+    line-height: 24px;
+    padding-left: 18px;
+}
+.pic_box .pho_ico, .pic_box .zan_ico, .pic_box .yizan_ico {
+    position: absolute;
+    background: url(../img/messageImg/ico_png24.png) no-repeat 0 -25px;
+    color: #fff;
+}
+
+.big_pic {
+    position: relative;
+    width: 250px;
+    overflow: hidden;
+}
+
+.big_pic ul {
+    height: 250px;
+}
+
+.big_pic ul li {
+    position: relative;
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+.big_pic ul li {
+    position: relative;
+    float: left;
+    width: 250px;
+    height: 250px;
+}
+
+.big_pic ul li table {
+    width: 100%;
+    height: 100%;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.small_pic_box {
+    width: 250px;
+    height: 54px;
+    padding-top: 10px;
+}
+
+.next {
+    float: right;
+    background: url(../img/messageImg/arrow.png) no-repeat  0 -32px;
+    display: block;
+    width: 7px;
+    height: 13px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.next:hover{
+    background: url(../img/messageImg/arrow.png) no-repeat  0 -48px;
+}
+
+.prev {
+    float: left;
+    display: block;
+    width: 7px;
+    height: 13px;
+    margin-top: 20px;
+    background: url(../img/messageImg/arrow.png) no-repeat;
+    cursor: pointer;
+}
+.prev:hover{
+    background: url(../img/messageImg/arrow.png) no-repeat 0 -16px;
+}
+.small_pic {
+    position: relative;
+    float: left;
+    width: 228px;
+    height: 54px;
+    overflow: hidden;
+    margin-left: 3px;
+}
+
+.small_pic ul {
+    height: 54px;
+}
+
+.small_pic ul li {
+    float: left;
+    display: inline;
+    width: 50px;
+    height: 50px;
+    margin-right: 3px;
+    border: 2px solid #fff;
+}
+
+.small_pic ul li.now {
+    border: 2px solid #0098c2;
+}
+
+.not_online {
+    margin-top: 28px;
+}
+.my_info {
+    color: #bababa;
+    height: 20px;
+
+}
+
+.member_info_r {
+    position: relative;
+    float: left;
+    width: 460px;
+    line-height: 20px;
+    padding-left: 20px;
+    color: #222;
+}
+
+.member_info_r h4 {
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+
+.member_info_r h4 span {
+    padding-left: 10px;
+    font-size: 12px;
+    color: #999;
+}
+
+.add_follow {
+    font-size: 14px;
+    color: #ff5167;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.add_follow:hover{
+    text-decoration: underline;
+}
+
+.womanFlash{
+    float: right;
+}
+
+.col_999 {
+    font-size: 12px;
+    color: #999;
+    display: block;
+}
+
+.member_name {
+    padding: 18px 0 10px;
+    font-size: 14px;
+}
+
+
+.member_info_list{
+    margin-top: 30px;
+}
+.member_info_list li {
+    float: left;
+    width: 215px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.fl {
+    float: left;
+}
+
+.f_gray_999 {
+    color: #999;
+}
+
+.pr {
+    position: relative;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.member_btn1{
+    float: left;
+    display: inline-block;
+    width: 94px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 13px;
+    background:  #FFE4C4 no-repeat;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.member_btn1:hover{
+    background-color: #FFDAB9;
+}
+ .member_btn2{
+    float: left;
+    display: inline-block;
+    width: 94px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 13px;
+    background:#98F5FF no-repeat;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.member_btn2:hover{
+    background-color: #8EE5EE;
+}
+
+.banner_box {
+    float: right;
+    width: 230px;
+}
+
+.slide_banner {
+    width: 230px;
+    height: 230px;
+}
+
+.col_blue {
+    color: #2c81d6;
+}
+
+.ems_bg {
+    width: 230px;
+    height: 54px;
+    line-height: 52px;
+    margin-top: 30px;
+    background:  no-repeat;
+    font-size: 14px;
+    text-align: center;
+}
+
+.col_blue a {
+    color: #2c81d6;
+    text-decoration: none;
+}
+
+.col_blue:hover{
+    text-decoration: underline;
+}
+
+.ems_bg a {
+    display: block;
+    padding-left: 45px;
+}
+
+.col_999 {
+    color: #999;
+}
+
+.jb_text {
+    text-align: right;
+}
+
+.col_999 a {
+    color: #999;
+    text-decoration: none;
+}
+
+.col_999 a:hover {
+    text-decoration: underline;
+}
+
+.jb_text a {
+    padding-left: 12px;
+}
+
+
+.profile{
+    margin: 0px auto;
+    width: 100%;
+    background-color:#ffffff;
+    padding: 10px;
+}
+.profileLeft{
+    width:65%;
+    display: inline-block;
+}
+.profileRight{
+    display: inline-block;
+    width:33%;
+}
+.profileLeft .tabMenu{
+    margin-bottom: 20px;
+}
+.profileLeft .perData .intr{
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+ .tabMenu h3{
+    color: red;
+}
+.tabMenu{
+    border-bottom: 2px red solid;
+}
+.perData h4{
+    color: red;
+    margin-bottom: 15px;
+}
+li.telllater{
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 7px;
+    height: 40px;
+}
+li.telllater div{
+    display: inline-block;
+    height:35px ;
+    line-height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+li.telllater div.meg{
+    width: 200px;
+}
+
+.slidebar_tit {
+    border-bottom: 1px solid #f4f4f4;
+    font: normal 18px/38px 'Microsoft YaHei';
+    color: #333;
+    text-align: left;
+}
+
+.slidebar {
+    float: right;
+    width: 250px;
+    padding: 15px 15px 20px;
+}
+
+.bg_white {
+    background: #fff;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.slidebar_tit a {
+    float: right;
+    display: inline;
+    font-size: 12px;
+}
+.col_blue {
+    color: #2c81d6;
+}
+.pic_list{
+    height: 500px;
+    overflow: hidden;
+}
+.pic_list li {
+    width: 227px;
+    margin-top: 8px;
+}
+
+.clearfix {
+    display: block;
+}
+
+.pic_7490 {
+    width: 74px;
+    height: 90px;
+}
+.pr {
+    position: relative;
+}
+
+.fl {
+    float: left;
+}
+
+.num_bg {
+    position: absolute;
+    z-index: 2;
+    top: 72px;
+    left: 0;
+    width: 35px;
+    height: 18px;
+    opacity: .4;
+    background: #000;
+}
+
+.num_box {
+    position: absolute;
+    z-index: 3;
+    top: 75px;
+    left: 3px;
+    width: 17px;
+    height: 12px;
+    line-height: 12px;
+    padding-left: 15px;
+    background: url(../img/messageImg/ico_png24.png) no-repeat 0 -31px;
+    color: #fff;
+
+}
+
+.num_box a, .num_box a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.member_info {
+    float: right;
+    width: 135px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: 500;
+}
+
+.a_gray_333{
+    color: #000;
+}
+.a_gray_333:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.member_info p {
+    margin-top: 10px;
+    background: url(../img/messageImg/hy_ico.png) no-repeat left 5px;
+    color: #999;
+    text-indent: 18px;
+}
+
+.clearfix:after {
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+    content: ' ';
+}

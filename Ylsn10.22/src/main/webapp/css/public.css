@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document yz */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { padding:0; margin:0; }
+table { border-collapse:collapse; border-spacing:0; }
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-weight:normal; font-style:normal; }
+ol,ul { list-style:none; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-weight:normal; font-size:100%; }
+.clear{ clear:both; font-size:0; visibility:hidden; line-height:1px; height:1px; margin-top:-1px;}
+.fixfloat:after{content:".";display:block;clear:both;visibility:hidden;height:0;}
+.fixfloat{zoom:1}
+
+body { margin:0px; padding:0px; background:#fff; overflow-x:hidden; }
+a { text-decoration:none; outline:none}
+a{blr:expression(this.onFocus=this.close());}
+a{blr:expression(this.onFocus=this.blur());}
+
+/*---公共---*/
+.selDate { width:45px; }
+.sel01 { width:150px; }
+.selCity { position: relative; float:left; padding-right:5px;}
+.selCity input { cursor:pointer;}
+.city_input { width:167px; _width:166px; background:#fff url(http://images6.baihe.com/icon/droparrow.gif) no-repeat right center;}
+.mb35 { margin-bottom:35px;}
+.mT25 { margin-top:-25px;}
+.mr2 { margin-right:2px;}
+.cf60 { color:#f60; }
+.c333 { color:#333; }
+.cbd { color:#bdbdbd;}
+.orange { display:block; height:25px; font:13px/24px "Microsoft Yahei"; color:#fff; text-align:center; cursor:pointer; background:#ff7f00; overflow:hidden; zoom:1;}
+.orange:hover { background:#f36500; }
+.orangeT { font:13px/24px "Microsoft Yahei"; color:#f60}
+.yellow { display:block; float:left; width:90px; height:38px; font:13px/36px "Microsoft Yahei"; color:#ff8b00; text-align:center; cursor:pointer; border:1px solid #fbb425; border-radius:3px; overflow:hidden; zoom:1;}
+.yellow:hover { color:#ff6a00; border-color:#ff8b01;}
+.yellowT { font:13px/24px "Microsoft Yahei"; color:#fe8b00}
+.red { display:block; height:25px; font:13px/24px "Microsoft Yahei"; color:#fff; text-align:center; background:#ff5a4d; overflow:hidden; zoom:1;}
+.red:hover { background:#f34133; }
+.grey { display:block; height:25px; font:13px/24px "Microsoft Yahei"; color:#fff; text-align:center; background:#d1d1d1; cursor:default; overflow:hidden; zoom:1; }
+.greyB { height:23px; font:13px/23px "Microsoft Yahei"; color:#bdbdbd; text-align:center; border:1px solid #bdbdbd; background:#fff; cursor:default; overflow:hidden; zoom:1; }
+.likeIcon {height:23px; padding-left:24px; font:13px/23px "Microsoft Yahei"; color:#f60; border:1px solid #ff7f00; background:#fff url(http://images6.baihe.com/icon/icon_like.gif) no-repeat; overflow:hidden; zoom:1;   }
+.likeIcon:hover { background-position:0 -23px;}
+.blue { font:13px/24px "Microsoft Yahei"; color:#1d51c6; overflow:hidden; zoom:1;}
+.blueT { color:#1d51c6; }
+.black { color:#252525; text-decoration:underline}
+.black:hover { color:#ff8000}
+.error { float:left; margin-left:6px; padding:0 0 0 16px; background:url(http://images6.baihe.com/icon/icon_11.gif) no-repeat left center; color:#f00; }
+input { float:left; font-family:"Microsoft Yahei"; color:#bdbdbd; }
+textarea {font:14px/22px "Microsoft Yahei"; color:#bdbdbd; resize: none; overflow-y:auto; overflow-x:hidden;}
+a.BHclose { display:block; position:absolute; width:15px; height:15px; top:10px; right:10px; background:url(http://images6.baihe.com/icon/close.gif) no-repeat; text-indent:-99999px; overflow:hidden; zoom:1; }
+
+
+#BAIHE { width:1000px; margin:0 auto; padding:25px 0 0 0; font:13px/20px microsoft yahei; color:#666; background:#fff; overflow:hidden; zoom:1; }
+#BAIHE a.more { float:right; font-size:13px; color:#bdbdbd; }
+#BAIHE a.more:hover { text-decoration:underline; }
+#BAIHE h2 { position:relative; height:33px; font-size:18px; color:#333; margin-bottom:10px; border-bottom:1px solid #dddddd; zoom:1;}
+#BAIHE .adv90 { width:1000px; height:90px; clear:both; padding-bottom:35px; text-align:center; overflow:hidden; zoom:1; }
+#BAIHE .adv230 { width:230px; clear:both; padding-bottom:25px; text-align:center; overflow:hidden; zoom:1; }
+#BAIHE .adv815 { width:815px; clear:both; margin:30px 0; text-align:center; overflow:hidden; zoom:1; }
+#BAIHE .advMyBh { height:95px; clear:both; overflow:hidden; zoom:1; }
+#BAIHE #leftCont { float:left; width:160px; margin-bottom:35px; overflow:hidden; zoom:1;}
+#BAIHE #rightCont {  width:815px; margin-bottom:35px; zoom:1; }
+#BAIHE .bor { margin-bottom:25px; border:1px solid #ebf0f0; }
+
+/*---标准头
+------------------------------------------------------------------------------------------------------*/
+#bhHeader a { text-decoration:none;  color:#6e6e6e;}
+#bhHeader em,#BHhomeFooter .approve a,.bhHead_J dl a,#BHFooter .approve a { display:block; text-indent:-99999px; background:url(http://images6.baihe.com/icon/head.gif) no-repeat; overflow:hidden; zoom:1; }
+
+#bhHeader { position:relative; height:82px; font:13px/20px "Microsoft Yahei"; color:#333; border-bottom:2px solid #ff5e00; background:#fff; z-index:500; }
+#bhHeader .head { position:relative; width:1000px; height:52px; margin:0 auto; }
+#bhHeader .headTop { position:relative; height:30px; background:#f3f3f3; z-index:20;}
+#bhHeader h1 { float:left; width:160px; overflow:hidden; zoom:1; }
+#bhHeader h1 a,.bhHead_J h1 a { display:block; width:140px; height:52px; text-indent:-99999px; background:url(http://images6.baihe.com/icon/logo.gif) no-repeat; overflow:hidden; zoom:1;}
+#bhHeader .nav { float:right; height:52px; padding-right:20px; text-align:center; }
+#bhHeader .nav ul li { position:relative; float:left; padding-left:31px;}
+#bhHeader .nav ul li a { display:block; float:left; height:52px; padding:0px; font-size:14px; line-height:52px; }
+#bhHeader .nav ul li em,#bhHeader .nav .navMenu a em { position:absolute;  width:22px; height:15px; z-index:30; }
+#bhHeader .nav ul .hot { top:12px; right:-7px; background-position:0 0;}
+#bhHeader .nav ul .new { top:12px; right:-7px; background-position:0 -18px;}
+#bhHeader .nav ul .num { top:0px; right:-5px; background-position:-22px -18px; text-indent:1px; text-align:center; font-size:9px; line-height:11px; color:#fff;}
+#bhHeader .nav ul li .arrow { right:8px; top:25px; width:9px; height:4px; background-position:-66px -21px;}
+#bhHeader .nav ul li a:hover,#bhHeader .nav ul li .down,#bhHeader .nav ul li a:active,#bhHeader .nav ul li a.active { color:#ff8758; background:url(http://images6.baihe.com/icon/arrow_02.gif) no-repeat center bottom; }
+#bhHeader .nav .navMenu { position:absolute; top:52px; left:-3px; width:92px; border:1px solid #dedede; border-top:2px solid #ff5e00; background:#fff; }
+#bhHeader .nav .navMenu .arrow { position:absolute; top:-8px; right:0px; width:92px; height:6px; text-indent:-99999px; background:url(http://images6.baihe.com/icon/arrow_02.gif) no-repeat center bottom;}
+#bhHeader .nav .navMenu .hot,#bhHeader .nav .navMenu .new { top:0px; right:-5px; }
+#bhHeader .nav .navMenu a { position:relative; float:none; width:92px;height:33px; padding:0px; font-size:13px; line-height:33px; text-align:center; }
+#bhHeader .nav .navMenu a:hover,#bhHeader .nav .navMenu .live2 .active { color:#ff8758; background:none; }
+#bhHeader .nav .navMenu .arrowRx { right:8px; top:19px; width:5px; height:5px; background-position:-24px 0px;}
+#bhHeader .nav .navMenu a:hover .arrowRx,#bhHeader .nav .navMenu .live2 .active .arrowRx { background-position:-29px 0px;}
+#bhHeader .nav .navMenu .live2 { padding:10px 0; }
+#bhHeader .nav .navMenu .live2 dt { position:relative; height:33px;}
+#bhHeader .nav .navMenu .live3 { position:absolute; left:92px; top:-5px; width:94px; padding:6px 0; background:#fff url(http://images9.baihe.com/home/nav_bj.gif) no-repeat left top; border:1px solid #dedede; border-width:1px 0; overflow:hidden; zoom:1; z-index:20;}
+#bhHeader .nav .navMenu .live3 a { height:33px; line-height:30px; background:none;}
+#bhHeader .nav .navMenu .live3 a:hover { color:#ff8758; }
+#bhHeader .navTop { width:1000px; height:30px; margin:0 auto; font-size:12px; line-height:28px; }
+#bhHeader .navTop a:hover { color:#ff5e00;}
+#bhHeader .mobile { position:relative; float:left; width:86px; text-align:center;}
+#bhHeader .mobile .app { display:block; width:80px; height:29px; border:1px solid #f3f3f3; border-bottom:none;}
+#bhHeader .mobile .app em { text-indent:1px; background-position:8px -426px;}
+#bhHeader .mobile .app:hover,#bhHeader .navTop .mobile .active { color:#ff5e00; border:1px solid #dedede; border-bottom:none; background:#fff;}
+#bhHeader .mobile .app:hover em,#bhHeader .navTop .mobile .active em { text-indent:1px; background-position:8px -455px;}
+#bhHeader .mobile .menu { position:absolute; top:30px; left:50%; width:95px; margin:0 0 0 -43px; padding:10px 15px 0 15px; text-align:center; border:1px solid #dedede; background:#fff; }
+#bhHeader .mobile .menu img { display:block;}
+#bhHeader .mobile .menu a { display:block; float:left; }
+#bhHeader .mobile .menu em { position:absolute; top:-2px; left:0; width:80px; height:3px; margin:0px; background:#fff;}
+#bhHeader .mobile .menu span { display:block; float:left; width:20px; height:28px; background:url(http://images9.baihe.com/home/nav_bj_r.gif) no-repeat center center; }
+#bhHeader .member { float:left; height:30px; padding:0 20px; background:url(http://images9.baihe.com/home/nav_bj_r.gif) no-repeat right center;}
+#bhHeader .navTop .right { float:right; width:870px; }
+#bhHeader .navTop .right dl { float:right;}
+#bhHeader .navTop .right dl dt { float:left; padding:0 20px; text-align:center; background:url(http://images9.baihe.com/home/nav_bj_r.gif) no-repeat right center;}
+#bhHeader .navTop .right dl dd { float:left; width:194px; text-align:right;}
+#bhHeader .navTop .right dl dd span { }
+#bhHeader .setUp { float:right; height:30px; padding:0 20px 0 0; background:url(http://images9.baihe.com/home/nav_bj_r.gif) no-repeat right center;}
+#bhHeader .setUp ul { float:left; margin-left:20px;}
+#bhHeader .setUp ul li { position:relative; float:left; height:30px; padding:0px; z-index:999; }
+#bhHeader .setUp ul li a { display:block; width:62px; height:29px; border:1px solid #f3f3f3; border-bottom:none; cursor:pointer; }
+#bhHeader .setUp em { width:48px; height:29px; cursor:pointer; text-indent:1px;}
+#bhHeader .setUp .message{     position: relative; }
+#bhHeader .setUp .message .messageDot{position: absolute;right:10px;top:2px;width:10px;height:10px;background:url(http://images9.baihe.com/home/message_dot.gif) no-repeat right center;}
+#bhHeader .setUp .message em{ padding-left:20px; background-position:0 -368px;}
+#bhHeader .setUp .message:hover em,#bhHeader .setUp .message .now { background-position:0 -397px;}
+#bhHeader .setUp .messageA em{ padding-left:20px; background-position:0 -368px;}
+#bhHeader .setUp .messageA:hover em,#bhHeader .setUp .messageA .now { background-position:0 -397px;}
+/*
+#bhHeader .setUp .messageA em{ padding-left:20px; background-position:0 -310px;}
+#bhHeader .setUp .messageA:hover em,#bhHeader .setUp .messageA .now { background-position:0 -339px;}
+*/
+#bhHeader .setUp .set { width:60px; padding-left:12px;}
+#bhHeader .setUp .set em { padding-left:14px; background-position:0 -252px;}
+#bhHeader .setUp .set:hover,#bhHeader .setUp .active { border:1px solid #dedede; border-bottom:none; background:#fff;}
+#bhHeader .setUp .set:hover em,#bhHeader .setUp .set .now,#bhHeader .setUp .active em { color:#ff5e00; background-position:0 -281px;}
+#bhHeader .setUp .menu { position:absolute; top:30px; left:50%; width:92px; margin:0 0 0 -37px; padding-top:10px; border:1px solid #dedede; background:#fff; z-index:40; }
+#bhHeader .setUp .menu em { position:absolute; top:-2px; left:0; width:72px; height:3px; margin:0px; background:#fff;}
+#bhHeader .setUp .menu a { width:92px; height:34px; border:none; text-align:center;}
+#bhHeader .setUp .name { display:block; float:left;}
+#bhHeader .setUp .pic { position:relative; top:7px; float:left; width:17px; height:14px; margin-left:7px;}
+#bhHeader .setUp .info { position:absolute; top:18px; left:50%; width:78px; height:18px; margin:0 0 0 -39px; line-height:18px; text-align:center; border:1px solid #d6d4d4; background:#fff; z-index:18;}
+#bhHeader .setUp .info em { position:absolute; top:-5px; left:50%; width:10px; height:5px; margin-left:-5px; background-position:-24px -8px;}
+#bhHeader .setUp span { color:#b3b3b3; }
+
+#bhHeader .point{ position:absolute; right:-16px; top:44px; width:223px; height:86px; font-family:"Microsoft Yahei"; padding:15px 10px 0; font-size:12px; background:url(http://images6.baihe.com/icon/headerPoint.png) no-repeat; z-index:99; overflow:hidden;zoom:1; z-index:1000}
+#bhHeader .point #scrollPoint{ position:relative; height:58px; overflow:hidden; zoom:1;}
+#bhHeader .point ol{ height:52px; overflow:hidden; zoom:1;}
+#bhHeader .point .close{ position:absolute; top:0; right:0; display:block; width:25px; height:25px; text-indent:-999em; overflow:hidden; zoom:1;}
+#bhHeader .point dl { margin:0 0 12px 0; overflow:hidden; zoom:1;}
+#bhHeader .point dl dt{ float:left; width:40px; height:49px; margin:0 10px 0 0;}
+#bhHeader .point dl dt img{ display:block; border:2px solid #fff;}
+#bhHeader .point dl dd{ position:relative; padding:10px 0 0; color:#fff; overflow:hidden; zoom:1;}
+#bhHeader .point dl dd h5{ display:block; font:bold 14px/22px simsun;}
+#bhHeader .point dl dd h5 strong{ color:#fcff00; font-weight:700;}
+#bhHeader .point dl dd .linkP{ position:absolute; top:20px; right:15px; display:block; padding:2px 6px; text-decoration:none; background:#fff; color:#ff6600;}
+#bhHeader .point p{ line-height:20px; color:#fff;}
+#bhHeader .point p strong{ display:inline-block; padding:0 3px; width:13px; text-align:center; color:#ff6600; font-weight:700; background:url(http://images6.baihe.com/icon/headerPoint1.png) no-repeat center;}
+#bhHeader .point p a{ color:#fff;}
+
+#bhHeader .salePrice { width:970px; height:40px; margin:2px auto; padding-left:30px; font-size:14px; line-height:40px; color:#000; background:#fff url(http://images6.baihe.com/icon/icon_22.gif) no-repeat 5px 13px; overflow:hidden; }
+#bhHeader .salePrice a:hover { color:#f60;}
+
+.bhHead_J { height:60px; padding-top:10px; overflow:hidden; zoom:1;}
+.bhHead_J h1 a { float:left; display:block; height:52px;}
+.bhHead_J dl { float:right; padding-top:5px; overflow:hidden; zoom:1; }
+.bhHead_J dl strong { font:bold 16px Arial,Helvetica,sans-serif; color:#ff0000}
+.bhHead_J dl a { float:right; padding-left:20px; color:#333; text-indent:1px; background-position:0 -192px;}
+
+
+/*---标准尾
+------------------------------------------------------------------------------------------------------*/
+#BHhomeFooter { padding-top:25px; text-align:center; font:12px/20px microsoft yahei; line-height:24px; color:#bdbdbd; border-top:1px solid #e8e8e8; background:#fff; overflow:hidden; zoom:1; }
+#BHhomeFooter .homeTxt p a { padding:0 10px; text-decoration:none; color:#bdbdbd;}
+#BHhomeFooter .approve,#BHFooter .approve { width:683px; margin:0 auto; padding:6px 0 12px; overflow:hidden; zoom:1;}
+#BHFooter .approve{ width:950px; }
+#BHFooter .approve .IconImg{background:none;}
+#BHhomeFooter .approve a,#BHFooter .approve a { float:left; height:40px; margin-right:15px; color:#bdbdbd; line-height:20px; text-decoration:none; text-indent:1px; white-space:nowrap; overflow:hidden;}
+#BHhomeFooter a.Icon1,#BHFooter a.Icon1 { width:50px; padding-left:56px; background-position:0 -72px;}
+#BHhomeFooter a.Icon2,#BHFooter a.Icon2 { width:60px; padding-left:40px; background-position:-48px -32px;}
+#BHhomeFooter a.Icon3,#BHFooter a.Icon3 { width:50px; padding-left:45px; background-position:0 -112px;}
+#BHhomeFooter a.Icon4,#BHFooter a.Icon4 { width:55px; padding-left:57px; color:#FFF; line-height:40px; background-position:0 -152px;}
+#BHhomeFooter a.Icon5,#BHFooter a.Icon5 { width:55px; padding-left:34px; background-position:0 -212px;}
+#BHhomeFooter a.Icon6,#BHFooter a.Icon6 { width:110px; padding-left:50px; line-height:40px; background:url(http://images9.baihe.com/home/logoInter.gif) no-repeat; }
+#BHhomeFooter a.Icon7,#BHFooter a.Icon7 { width:50px; height:38px; padding:2px 0 0 42px; line-height:16px; background:url(http://images9.baihe.com/home/logo3A.gif) no-repeat 3px 2px; text-align:center;}
+#BHhomeFooter a.Icon8,#BHFooter a.Icon8 { width:42px; margin-right:0px; height:40px; text-indent:-9999px; background:url(http://images9.baihe.com/home/LogoCX.png) no-repeat 3px 2px; text-align:center;}
+
+#BHFooter { padding-top:25px; font-size:12px; line-height:24px; color:#999; text-align:left; border-top:1px solid #e8e8e8; background:#fff;  overflow:hidden; zoom:1;}
+#BHFooter a { color:#999; }
+#BHFooter .cont { width:1000px; margin:0 auto; overflow:hidden; zoom:1; }
+#BHFooter .logo { float:left; width:80px; height:90px; padding:17px 0 0 25px; overflow:hidden; zoom:1; }
+#BHFooter ul li { float:left; margin-left:25px; padding:0 0 0 25px; border-left:1px solid #ccc; overflow:hidden; zoom:1; }
+#BHFooter ul li a:hover { text-decoration:underline; }
+#BHFooter p { padding-top:20px; line-height:30px; text-align:center; }
+#BHFooter p a,#BHFooter .approve a { color:#333;}
+#BHFooter a.Icon4 { color:#fff;}
+
+/*---通用浮层
+------------------------------------------------------------------------------------------------------*/
+.pop_layer { position:absolute; top:50%; left:50%; font:13px/20px "Microsoft Yahei"; text-align:left; border:7px solid #777; border-radius:7px; background:#fff; overflow:hidden; zoom:1; }
+.pop_layer a.popClose { position:absolute; top:15px; right:20px; display:block; width:16px; height:16px; text-indent:-99999px; background:url(http://images6.baihe.com/icon/popClose.gif) no-repeat; overflow:hidden; zoom:1; }
+.pop_layer .popTit { height:47px; padding:0 0 0 23px; font:18px/46px "Microsoft Yahei"; color:#333; background:#eee; overflow:hidden; zoom:1;}
+.pop_layer .orange,.pop_layer .grey { display:block; border-radius:3px; cursor:pointer;}
+.pop_layer .orange:hover { background:#f36500; }
+
+.often { width:440px; height:290px; margin:-145px 0 0 -220px;}
+.often .orange,.often .grey { width:140px; height:40px; margin:0 auto; font-size:16px; line-height:38px;}
+.often .oftenCont { height:100px; padding:50px 20px 0; text-align:center; font-size:18px; line-height:32px; }
+.often .oftenIcon { width:220px; margin:0 auto; }
+.often .oftenIcon .orange,.often .oftenIcon .grey { float:left; width:90px; float:left; margin:0 10px; }
+
+/*---专题标准尾
+------------------------------------------------------------------------------------------------------*/
+#topicsFooter{ height:30px; padding:35px 0; margin:0 auto; font:12px/20px Arial; color:#AEAFB3; text-align:center; background:#fff; overflow:hidden; zoom:1;}
+
+
+/*---旧版按钮
+------------------------------------------------------------------------------------------------------*/
+.btnYellow26{ float:left; padding:0 0 0 15px; background:url(http://images6.baihe.com/icon/btn26_left.gif) no-repeat; overflow:hidden;}
+.btnYellow26 a{ display:block; float:left; padding:0 15px 0 0; font:12px/34px "Microsoft Yahei"; color:#fff; background:url(http://images6.baihe.com/icon/btn26_right.gif) no-repeat right 0; text-decoration:none;}
+.btnYellow26 a:hover{ color:#fff; text-decoration:underline;}
+
+
+/*---防骗浮层
+------------------------------------------------------------------------------------------------------*/
+.prevention { position:absolute; top:50%; left:50%; width:460px; height:510px; margin:-250px 0 0 -230px; background:url(http://images8.baihe.com/pop/fp/pic01.png) no-repeat; overflow:hidden; z-index:100; }
+.prevention a.close { position:absolute; left:210px; bottom:0px; display:block; width:40px; height:40px; text-indent:-99999px; overflow:hidden; }
+.prevention a.txt { position:absolute; left:157px; top:336px; display:block; width:158px; height:20px; text-indent:-99999px; background:url(http://images8.baihe.com/pop/fp/pic02.png) no-repeat; overflow:hidden; }
+.prevention a.icon { position:absolute; left:122px; bottom:90px; display:block; width:228px; height:42px; text-indent:-99999px; background:url(http://images8.baihe.com/pop/fp/pic03.png) no-repeat; overflow:hidden; }

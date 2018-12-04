@@ -1,0 +1,115 @@
+
+#ylsnHeader {
+    position: relative;
+    height: 52px;
+    font: 13px/20px "Microsoft Yahei";
+    color: #333;
+    border-bottom: 2px solid #ff5e00;
+    background: #fff;
+}
+
+#ylsnHeader .head {
+    position: relative;
+    width: 1000px;
+    height: 52px;
+    margin: 0 auto;
+}
+
+#ylsnHeader h1 {
+    float: left;
+    width: 160px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+/*#ylsnHeader h1 a {*/
+    /*display: block;*/
+    /*width: 140px;*/
+    /*height: 52px;*/
+    /*!*text-indent: -99999px;*!*/
+    /*!*background-image: url("../images/logo.png");*!*/
+    /*!*overflow: hidden;*!*/
+    /*zoom: 1;*/
+/*}*/
+#ylsnHeader img{
+    width: 140px;
+    height: 52px;
+}
+
+#ylsnHeader a {
+    text-decoration: none;
+    color: #6e6e6e;
+}
+
+#ylsnHeader a:hover{
+    color: red;
+}
+
+#ylsnHeader .nav {
+    text-align: center;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+ #ylsnHeader ol, ul {
+    list-style: none;
+}
+
+#ylsnHeader .nav ul li {
+    position: relative;
+    float: left;
+    padding-left: 31px;
+}
+
+#ylsnHeader .nav ul li a {
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 52px;
+}
+
+#ylsnHeader .login {
+    display: inline-block;
+    float: right;
+    text-align: center;
+    font-size: 14px;
+    line-height: 52px;
+}
+
+#ylsnHeader .login span {
+    display: block;
+    float: left;
+    text-align: right;
+    overflow: hidden;
+}
+
+#ylsnHeader .login a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+#ylsnHeader .nav .navMenu {
+    position: absolute;
+    top: 52px;
+    left: -3px;
+    width: 92px;
+    border: 1px solid #dedede;
+    background: #fff;
+    display: none;
+    z-index: 10;
+}
+
+#ylsnHeader .nav li:hover .navMenu {
+    display: block;
+}
+
+#ylsnHeader .nav .navMenu a {
+    position: relative;
+    float: none;
+    width: 92px;
+    height: 33px;
+    padding: 0px;
+    font-size: 13px;
+    line-height: 33px;
+    text-align: center;
+}

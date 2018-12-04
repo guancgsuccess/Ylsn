@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+body {
+    background: url(../img/search/body_bg.jpg) repeat scroll 0 0;
+}
+#BAIHE {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 25px 0 0 0;
+    font: 13px/20px microsoft yahei;
+    color: #666;
+    overflow: hidden;
+    zoom: 1;
+}
+#BAIHE #rightCont {
+    margin-bottom: 35px;
+    zoom: 1;
+}
+.myData h3 {
+    height: 75px;
+    line-height: 28px;
+}
+.myData h3 strong {
+    font-size: 22px;
+    color: #333;
+}
+.myData .mainNav {
+    height: 45px;
+    background: url(../img/set/bj_01.gif) repeat-x left bottom;
+    zoom: 1;
+}
+.myData .mainNav a {
+    position: relative;
+    display: block;
+    float: left;
+    width: 163px;
+    height: 43px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333;
+    text-align: center;
+    border-bottom: 2px solid #facabe;
+    zoom: 1;
+    text-decoration: none;
+    outline: none;
+}
+.myData .mainNav a:hover, .myData .mainNav a.active {
+    color: #333;
+    border-bottom: 2px solid #fe4f22;
+    text-decoration: none;
+}
+.myData .mainNav .angleB1 {
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    width: 16px;
+    height: 9px;
+    margin-left: -8px;
+    background-position: 0 -313px;
+    overflow: hidden;
+    zoom: 1;
+}
+.myData .mainNav em{
+    background: url(../img/set/icon_look.gif) no-repeat;
+}
+
+/*********************List*************************/
+.blackList {
+    padding-top: 30px;
+    overflow: hidden;
+    zoom: 1;
+}
+.blackList .list {
+    overflow: hidden;
+    zoom: 1;
+}
+.blackList .list dl {
+    float: left;
+    width: 500px;
+    height: 170px;
+    overflow: hidden;
+    zoom: 1;
+}
+.blackList .list dl dt {
+    float: left;
+    width: 137px;
+    height: 150px;
+    overflow: hidden;
+    zoom: 1;
+}
+.blackList .list dl dt img {
+    width: 120px;
+    height: 150px;
+}
+.blackList .list dl dd {
+    float: left;
+    width: 250px;
+    padding-right: 20px;
+    overflow: hidden;
+    zoom: 1;
+}
+.blackList .txt {
+    height: 123px;
+    line-height: 21px;
+    color: #333;
+    overflow: hidden;
+    zoom: 1;
+}
+.blackList .txt a.link {
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+}
+.blackList .txt span {
+    display: block;
+    padding: 10px 0;
+}
+.blackList .orange {
+    display: block;
+    width: 80px;
+    height: 27px;
+    line-height: 25px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+.orange {
+    display: block;
+    height: 25px;
+    font: 13px/24px "Microsoft Yahei";
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background: #ff7f00;
+    overflow: hidden;
+    zoom: 1;
+}
+
+/********************分页*********************/
+.blackList .page {
+    float: right;
+    padding: 20px 20px 0;
+    line-height: 20px;
+    overflow: hidden;
+    zoom: 1;
+}
+.blackList .page .prevOver {
+
+    background-position: -21px -334px;
+
+}
+.blackList .page a {
+
+    float: left;
+    display: block;
+    width: 21px;
+    height: 21px;
+    text-indent: -9999px;
+    background: url(../img/set/icon_look.gif) no-repeat;
+    overflow: hidden;
+    zoom: 1;
+
+}
+.blackList .page .num {
+    float: left;
+    padding: 0 10px;
+    overflow: hidden;
+    zoom: 1;
+}
+.blackList .page .nextOver {
+    background-position: -63px -334px;
+}
+.blackList .page a {
+    float: left;
+    display: block;
+    width: 21px;
+    height: 21px;
+    text-indent: -9999px;
+    background: url(../img/set/icon_look.gif) no-repeat;
+    overflow: hidden;
+    zoom: 1;
+}

@@ -1,0 +1,228 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+
+    vertical-align: baseline;
+
+}
+a:link {
+
+    text-decoration: none;
+}
+a:hover {
+    color: #f60;
+    cursor: pointer;
+    text-decoration: underline;
+}
+a:visited {
+    color: #0861A2;
+    text-decoration: none;
+}
+
+
+
+li{
+    list-style: none;
+    border: none;
+    display: list-item;
+}
+body{
+    background-color: #eeeeee;
+    font-size:12px;
+}
+
+.listBox-bg {
+    background: url(../img/upImg/ls_mainbg_m2.gif) left top repeat-y;
+}
+
+.lsmainBox {
+
+    width: 900px;
+    margin: 10px auto;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+textarea {
+    border: solid 0.5px rgb(169, 169, 169);
+
+}
+
+.lsmainBox h1 {
+    display: none;
+}
+
+.lsmainBox a.but2 {
+    top: 15px;
+    right: 15px;
+}
+.lsmainBox a.but3 {
+    top: 15px;
+    right: 140px;
+}
+
+
+.lsmainBox a.but, .lsmainBox a.but2, .lsmainBox a.but3 {
+    position: absolute;
+    color: #f60;
+    cursor: pointer;
+    width: 110px;
+}
+.lsmainBox a.but2 {
+    background: url(../img/upImg/storypicbg.gif) no-repeat right -298px;
+}
+.lsmainBox a.but3 {
+    background: url(../img/upImg/storypicbg.gif) no-repeat right -326px;
+}
+
+
+.lsmainBox a.but span, .lsmainBox a.but2 span, .lsmainBox a.but3 span {
+
+    background: url(../img/upImg/storypicbg.gif) no-repeat -742px -270px;
+    height: 27px;
+    line-height: 27px;
+    display: block;
+    text-align: center;
+}
+
+.addstoryBox {
+    min-height: 480px;
+}
+
+.storylist, .addstoryBox {
+    background: url(../img/upImg/ls_mainbg2.jpg) left top no-repeat;
+    padding: 115px 45px 0;
+    min-height: 600px;
+}
+
+.databox {
+    background: url(../img/upImg/databox_bg.gif) no-repeat;
+    width: 720px;
+    margin: 0 auto;
+}
+
+.addstoryBox h3 {
+    height: 35px;
+    line-height: 35px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #0861A2;
+    padding: 20px;
+}
+
+
+
+ .clearfix {
+    display: block;
+}
+
+.addstoryBox ul {
+    line-height: 30px;
+    padding: 20px 10px;
+    color: #4d4d4d;
+}
+
+
+.addstoryBox li strong.w200 {
+    width: 200px;
+}
+
+.addstoryBox li strong {
+    width: 250px;
+    float: left;
+    text-align: right;
+    clear: both;
+    font-weight: normal;
+    font-size: 14px;
+}
+.addstoryBox li input {
+    font-size: 12px;
+}
+
+
+.inputBox {
+    border: 1px solid #7d9bb9;
+    background-color: #FFFFFF;
+    padding: 2px;
+}
+
+.bt4 {
+    background: url(../img/upImg/button.gif) no-repeat  0 -40px;
+    height: 23px;
+    border: none;
+    color: #FFFFFF;
+    line-height: 23px;
+    cursor: pointer;
+    padding-bottom: 3px;
+    width: 60px;
+}
+.addstoryBox li p {
+    float: left;
+    width: 450px;
+    margin-bottom: 15px;
+    padding: 0;
+    border: 0 none;
+    color: #666;
+    text-indent: 0;
+    line-height: 22px;
+}
+.subject{
+    border: solid 0.5px rgb(169, 169, 169);
+}
+.tred {
+    color: #f60;
+}
+.bolds {
+    font-weight: bold;
+}
+#newStoryPhotoListDIV {
+    text-align: center;
+}
+
+
+
+.clearfix:after {
+    content: ".";
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.storylist-b {
+    background: url(../img/upImg/ls_mainbg_b2.gif) 0 0 no-repeat;
+    height: 10px;
+    overflow: hidden;
+}
+
+.resg_bt {
+
+    background: url(../img/upImg/resg_button.gif) no-repeat  0 -99px;
+    line-height: 31px;
+    width: 115px;
+    height: 31px;
+    cursor: pointer;
+}
+
+.bigbt {
+    background: url(../img/upImg/big_btbg.gif) no-repeat;
+    width: 115px;
+    height: 32px;
+    border: none;
+    color: #FFFFFF;
+    line-height: 26px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.BrowsepicBox img{
+    width: 300px;
+    height: 300px;
+}

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: ylsn
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: 王德鹏
+Implementation-Vendor-Id: com.chixing
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_172
+Main-Class: ${start-class}
+

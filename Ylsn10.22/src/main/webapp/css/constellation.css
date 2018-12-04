@@ -1,0 +1,164 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    border: none;
+    display: list-item;
+}
+ul {
+    list-style: none;
+    display: block;
+}
+
+p {
+    display: block;
+}
+
+body {
+    background: #f5f2ed repeat-x left 50px;
+    text-align: center;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+.search_box {
+    padding-top: 15px;
+    width: 970px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.search_bg{
+    height: 45px;
+    border-bottom: 2px solid #ea3f70;
+}
+
+.clear:after {
+    display: block;
+    content: ".";
+    overflow: hidden;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 1px;
+    visibility: hidden;
+}
+.clear:hover{
+    background-color: #fffef2;
+}
+.search_logo {
+    float: left;
+    margin: 5px 17px 0 14px;
+    display: block;
+}
+ img {
+    border: 0;
+}
+
+.search_tab {
+    float: left;
+}
+
+.search_tab li{
+    display: inline-block;
+    float: left;
+    width: 101px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    border: 0.5px #f5f2ed solid;
+    background: #fcfcfc ;
+
+}
+.search_tab li a{
+    color: #ea3f70;
+}
+.cont {
+    width: 100%;
+    clear: both;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.pd_t10 {
+    padding: 10px;
+}
+
+.xz_list{
+    border: solid #ededed 1px;
+}
+.xz_list .xz {
+    width: 130px;
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    padding: 15px;
+
+}
+
+.xz_list .ys {
+    width: 160px;
+}
+
+.xz_list .info {
+    float: left;
+    color: #666666;
+    line-height: 23px;
+    padding: 15px;
+}
+.love_xj {
+    display: inline-block;
+    width: 87px;
+    height: 16px;
+    background: url(../img/constellationImg/xingji_bg.gif) no-repeat scroll 0 -21px;
+}
+
+.love_xj em {
+    display: inline-block;
+    background: url(../img/constellationImg/xingji_bg.gif) no-repeat scroll 0 0;
+    height: 16px;
+}
+
+.xz_list .gs {
+    width: 560px;
+}
+
+
+.chakan_btn {
+    display: block;
+    width: 148px;
+    height: 29px;
+    background:#ededed no-repeat scroll 0 0;
+    line-height: 29px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 3px;
+    color: #000000;
+}
+
+.chakan_btn:hover{
+    background:#f1f1f1 no-repeat scroll 0 0;
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+.xz_list li {
+    border-bottom: 1px solid #f1f1e5;
+}
+strong {
+    font-weight: bold;
+}

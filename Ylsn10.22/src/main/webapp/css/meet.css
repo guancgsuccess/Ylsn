@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+.meet {
+    width: 1000px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    zoom: 1;
+}
+/************************************************************************************/
+.wrap {
+    width: 852px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.wrap .edit {
+    float: left;
+    width: 302px;
+    padding-top: 12px;
+    font: 14px/28px "Microsoft Yahei";
+    text-decoration: none;
+}
+.wrap .edit a {
+    color: #868686;
+}
+.wrap .meetNum {
+    float: left;
+    padding-top: 8px;
+    font: 15px/29px "Microsoft Yahei";
+    color: #333;
+}
+.wrap .meetNum em {
+    display: inline-block;
+    width: 32px;
+    height: 29px;
+    margin: 0 5px;
+    font: bold 20px/29px Arial,"Microsoft Yahei";
+    color: #fff;
+    text-align: center;
+    background: url(../img/meetImg/icon.png) no-repeat  0 -470px;
+
+}
+.wrap .likeNum {
+    float: right;
+    margin-top: 12px;
+    padding: 0 0 0 31px;
+    background: url(../img/meetImg/icon_like.gif) no-repeat 0 -21px;
+}
+.wrap .likeNum a {
+    font: 15px/28px "Microsoft Yahei";
+    color: #333;
+    text-decoration: none;
+}
+.wrap .likeNum i {
+    padding-left: 6px;
+    font-style: normal;
+}
+/****************************************************************************************/
+.contBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.meetBox {
+    float: left;
+    width: 850px;
+    height: 549px;
+    background: #fbfbfb;
+    border: 1px solid #ddd;
+}
+.meetText {
+    float: left;
+    width: 301px;
+}
+.meetText .name {
+    padding-top: 26px;
+    text-align: center;
+}
+.meetText .name a {
+    font: 21px/25px "Microsoft Yahei";
+    color: #252525;
+}
+.meetText .data {
+    margin: 0 18px;
+    padding: 17px 0 0;
+    background: url(../img/meetImg/line.gif) no-repeat center top;
+    overflow: hidden;
+}
+.meetText .data .t2 {
+    float: right;
+}
+.meetText .data span {
+    font-size: 17px;
+}
+.meetText .data .t1 {
+    float: left;
+}
+.meetText .data dl {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+.meetText .data dl dt {
+    float: left;
+    width: 70px;
+    padding-top: 16px;
+    clear: both;
+    font-size: 14px;
+}
+.meetText .data dl dd {
+    float: left;
+    width: 155px;
+    padding: 16px 0 0 12px;
+    color: #252525;
+    font-size: 14px;
+}
+.meetText .data dl dd img {
+    float: right;
+    vertical-align: middle;
+}
+/*************************************************************************************/
+.meetPic {
+    float: right;
+    width: 549px;
+}
+.meetPic img {
+    display: block;
+    width: 549px;
+    height: 549px;
+}
+/******************************************************************************************/
+.btnLine {
+    width: 550px;
+    margin: 6px 0 8px 0;
+    padding-left: 302px;
+    overflow: hidden;
+}
+.btnLine .b03 {
+    float: right;
+    width: 79px;
+    height: 40px;
+    letter-spacing: 16px;
+    background: #ff5e00;
+}
+.btnLine .b03:hover{
+    background-color: red;
+}
+.btnLine a {
+    position: relative;
+    display: block;
+    padding-left: 65px;
+    font: 18px/40px "Microsoft Yahei";
+    color: #fff;
+    border-radius: 2px;
+}
+.btnLine .b03 em {
+    background-position: 0 -435px;
+}
+.btnLine a em {
+    position: absolute;
+    top: 5px;
+    left: 26px;
+    width: 30px;
+    height: 30px;
+    background: url(../img/meetImg/icon.png) no-repeat;
+}
+.btnLine .b01 {
+    float: left;
+    width: 79px;
+    height: 40px;
+    background: #cfcfcf;
+}
+.btnLine .b01:hover{
+    background-color: darkslategray;
+}
+.btnLine a {
+    position: relative;
+    display: block;
+    padding-left: 65px;
+    font: 18px/40px "Microsoft Yahei";
+    color: #fff;
+    border-radius: 2px;
+}
+.btnLine .b01 em {
+    background-position: 0 -400px;
+}
+.btnLine .b02 {
+    width: 51px;
+    height: 27px;
+    margin: 6px auto 0;
+    padding-left: 29px;
+    font: 14px/27px "Microsoft Yahei";
+    color: #999;
+    border: 1px solid #cfcfcf;
+}
+.btnLine .b02 em {
+    top: 0;
+    left: 7px;
+    width: 17px;
+    height: 26px;
+    background-position: -32px -394px;
+}

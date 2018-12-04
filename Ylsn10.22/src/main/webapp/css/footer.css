@@ -1,0 +1,75 @@
+
+
+#ylsnFooter .cont ul a:hover {
+    text-decoration: underline;
+}
+
+#ylsnFooter {
+    padding-top: 25px;
+    font-size: 12px;
+    line-height: 24px;
+    color: #999;
+    text-align: left;
+    border-top: 1px solid #e8e8e8;
+    background: #fff;
+    overflow: hidden;
+    zoom: 1;
+
+}
+
+#ylsnFooter .cont {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+#ylsnFooter img{
+    float: left;
+    width: 80px;
+    height: 90px;
+    padding: 17px 0 0 25px;
+    /*overflow: hidden;*/
+    zoom: 1;
+}
+
+#ylsnFooter ol, ul {
+    list-style: none;
+}
+
+#ylsnFooter ul li {
+    float: left;
+    margin-left: 25px;
+    padding: 0 0 0 25px;
+    border-left: 1px solid #ccc;
+    overflow: hidden;
+    zoom: 1;
+}
+
+#ylsnFooter a {
+    color: #999;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.clear:after {
+    clear: both;
+    font-size: 0;
+    visibility: hidden;
+    line-height: 1px;
+    height: 1px;
+    margin-top: -1px;
+}
+
+#ylsnFooter p {
+    padding-top: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+#ylsnFooter p a, #ylsnFooter .approve a {
+    color: #333;
+}

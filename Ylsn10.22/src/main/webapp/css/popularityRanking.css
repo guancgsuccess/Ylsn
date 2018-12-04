@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(../img/search/body_bg.jpg) repeat scroll 0 0;
+}
+ol, ul {
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+.search_box {
+    padding-top: 15px;
+    width: 970px;
+    margin: 0 auto;
+    text-align: left;
+    border: 1px solid indianred;
+}
+.search_bg {
+    border-bottom: 2px solid #ea3f70;
+}
+.search_logo {
+    float: left;
+    margin: 5px 17px 0 14px;
+    display: block;
+}
+.search_tab {
+    background: url(../img/popularityRanking/search.gif) repeat-x scroll 0 3px;
+    float: left;
+}
+.search_tab li {
+    float: left;
+    width: 101px;
+    height: 44px;
+    background: url(../img/popularityRanking/search.gif) no-repeat scroll left -41px;
+    text-align: center;
+}
+.search_tab li a.left {
+    background: url(../img/popularityRanking/search.gif) no-repeat scroll -95px -85px;
+}
+.search_tab li a {
+    display: block;
+    padding: 3px 0 0;
+    color: #ea3f6f;
+    line-height: 41px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.search_tab li.cur {
+    background: url(../img/popularityRanking/search.gif) no-repeat scroll 0 -216px;
+}
+.search_tab li.cur a {
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0px -1px 0px #bd1b47;
+}
+.clear:after {
+    display: block;
+    content: ".";
+    overflow: hidden;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 1px;
+    visibility: hidden;
+}
+.cont {
+    width: 100%;
+    clear: both;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.search_info {
+    width: 940px;
+    padding: 17px 15px;
+    border-bottom: 1px solid #e4e4e4;
+    position: relative;
+    z-index: 1001;
+}
+.search_list {
+    float: left;
+}
+.search_list li {
+    float: left;
+    line-height: 23px;
+    color: #666;
+    padding-left: 6px;
+}
+.w_85 {
+    width: 85px;
+}
+.select_box {
+    height: 23px;
+    border: 1px solid #c6cccc;
+    background: url(../img/popularityRanking/search.gif) repeat-x scroll 0 -132px;
+    position: relative;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+}
+.select_box em {
+    color: #666;
+    text-decoration: none;
+    padding-left: 3px;
+    display: inline-block;
+    width: 75%;
+    height: 20px !important;
+    overflow: hidden;
+    font-size: 12px;
+}
+.select_box .select_img {
+    display: block;
+    width: 21px;
+    height: 21px;
+    background: url(../img/popularityRanking/search.gif) no-repeat scroll 0 -91px;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+.select_box .select {
+    display: block;
+    border: 1px solid #cdcbce;
+    background-color: #fff;
+    position: absolute;
+    z-index: 100;
+    left: -1px;
+    top: 23px;
+    overflow: hidden;
+}
+
+.select_box .select li {
+    float: none;
+    height: 25px;
+    padding: 0;
+    margin-right: 0;
+    overflow: hidden;
+}
+
+.select_box .select li a {
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 5px;
+    color: #666;
+    text-decoration: none;
+    font-size: 12px;
+}
+.w_138 {
+    width: 138px;
+}
+.current_city {
+    display: inline-block;
+    float: left;
+    color: #666;
+    text-align: center;
+    width: 58px;
+}
+.change_btn {
+    float: right;
+    color: #ee4f6c;
+    cursor: pointer;
+}
+.change_btn a {
+    color: #ee4f6c;
+    text-decoration: underline;
+}
+.city_list {
+    background: #fff url(../img/party/hd_city_map.jpg) right bottom no-repeat;
+    border: 1px solid #e4e2e0;
+    width: 602px;
+    position: absolute;
+    padding: 10px;
+    top: 23px;
+    left: -1px;
+    z-index: 100;
+    cursor: default;
+}
+.city_close {
+    text-align: right;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.city_close span {
+    background: url(../img/party/city_close.gif) left 50% no-repeat;
+    cursor: pointer;
+    padding-left: 15px;
+}
+.city_list dl {
+
+    overflow: hidden;
+    line-height: 38px;
+    padding: 0 15px;
+}
+.city_list dt {
+    float: left;
+    width: 65px;
+    font-weight: bold;
+    text-align: right;
+}
+.city_list dd a {
+    display: inline-block;
+    width: 55px;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+.city_list dd a:hover{
+    color: red;
+    text-decoration: none;
+}
+.hd_slgns {
+    background: url(../img/party/signs.png) no-repeat;
+    width: 359px;
+    height: 15px;
+    float: left;
+    margin-left: 20px;
+    display: inline;
+    margin-top: 30px;
+}
+
+.jy_tab {
+    float: left;
+    padding-left: 50px;
+}
+.jy_tab li.cur {
+    background: url(../img/popularityRanking/jy_tab_cur.jpg) no-repeat scroll 0 0;
+    height: 41px;
+}
+.jy_tab li {
+    width: 92px;
+    text-align: center;
+    float: left;
+    line-height: 34px;
+}
+.jy_tab li.cur a {
+    font-weight: 600;
+}
+.jy_tab li a {
+    color: #85641b;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hy_title {
+    border: 1px solid #f1e3cd;
+    background: url(../img/popularityRanking/hy_bg.jpg) repeat-x scroll 0 0;
+    margin: 0 10px;
+    height: 38px;
+    line-height: 37px;
+    overflow: hidden;
+}
+.f_l {
+    float: left;
+}
+.hy_title span {
+    color: #85641b;
+    font-size: 18px;
+    font-family: Microsoft YaHei;
+    padding: 0 10px;
+    font-weight: 600;
+}
+.hy_title em {
+    font-style: normal;
+    color: #666;
+}
+.hy_title .more {
+    float: right;
+    margin-right: 15px;
+    color: #0066cb;
+    font-size: 14px;
+}
+.hy_title a:hover{
+    text-decoration: none;
+}
+/*********************************/
+.user_list {
+    padding: 10px 23px 0;
+    position: relative;
+    z-index: 999;
+}
+.user_list li {
+    width: 128px;
+    height: 330px;
+    position: relative;
+    float: left;
+    margin: 15px 0 15px 0;
+    z-index: 2;
+    display: inline;
+    padding-left: 23px;
+}
+/*.num {
+    width: 39px;
+    height: 39px;
+    background: url(../img/popularityRanking/num.png);
+    position: absolute;
+    right: -10px;
+    top: 0;
+    z-index: 200;
+}*/
+
+.hy_num {
+    border: 1px solid #f5b559;
+    background-color: #fffaf2;
+    padding: 8px 8px 18px;
+    position: absolute;
+    width: 110px;
+    overflow: hidden;
+}
+a {
+    color: #0066cc;
+    text-decoration: underline;
+}
+.hy_num a img {
+    width:110px;
+    height:135px
+}
+.user_name {
+    margin: 8px 0;
+    line-height: 18px;
+    height: 18px;
+    text-align: center;
+    width: 110px;
+    white-space: nowrap;
+    overflow: hidden;
+    word-wrap: normal;
+    text-overflow: ellipsis;
+}
+.user_name i {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-bottom: -3px;
+    margin-left: 1px;
+}
+.tel {
+    background: url(../img/popularityRanking/tel.jpg) no-repeat scroll top;
+}
+.user_name a {
+    display: inline-block;
+    color: #0164ca;
+    text-decoration: none;
+    margin-left: 4px;
+    font-size: 12px;
+}
+.user_name a:hover{
+    color: red;
+}
+.user_info {
+    color: #676664;
+    text-align: center;
+    line-height: 18px;
+    font-size: 14px;
+}
+.detail {
+    text-align: center;
+    line-height: 30px;
+}
+.detail a{
+    font-size: 12px;
+}
+.detail a:hover{
+    text-decoration: none;
+    color: red;
+}
+.zh_btn a {
+    display: block;
+    width: 68px;
+    height: 28px;
+    line-height: 28px;
+    margin: 5px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+.dzh {
+    background: url(../img/popularityRanking/zh_btn.gif) no-repeat scroll left top;
+    text-shadow: 0 -1px 0 #cc5d0f;
+    color: #fff;
+    height: 28px;
+    line-height: 27px;
+    font-weight: 600;
+}

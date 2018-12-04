@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.1.144:3306/friend?characterEncoding=utf8&amp;useSSL=false&amp;useServerPreStmts=true&amp;serverTimezone=UTC
+    username: root
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
+logging:
+  file: F:\java\speech\myLogger.log
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true

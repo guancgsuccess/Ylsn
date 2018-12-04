@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+
+.myData { width:815px; zoom:1;}
+.myData .mT30 { margin-top:-30px;}
+.myData h3 { height:75px; line-height:28px;}
+.myData h3 strong { font-size:22px; color:#333;}
+.myData .mms { padding:0 0 0 37px; background:url(http://images9.baihe.com/myData/icon_03.gif) no-repeat; line-height:28px; }
+.myData h4 { height:58px; padding-top:8px; font-size:16px; line-height:44px; color:#333; overflow:hidden; zoom:1;}
+.myData h4 dl dt { position:relative; float:left;}
+.myData h4 dl dt span { font-size:13px; color:#bdbdbd; padding:0 0 0 50px; background:url(http://images6.baihe.com/icon/icon_11.gif) no-repeat 30px center;}
+.myData h4 dl dt a { color:#ff8b00; }
+.myData h4 dl dt .info { position:absolute; top:23px; left:114px; width:500px; font-size:13px; color:#f19998;}
+.myData h4 dl dd { float:right; padding:5px 6px 0 0; overflow:hidden; zoom:1; }
+.myData h4 dl dd a.txt { display:block; float:left; height:26px; margin:3px 22px 0 0; font-size:13px; line-height:29px; color:#ff8b00;}
+.myData h4 dl dd a.active { font-weight:bold; border-bottom:3px solid #ff8b00;}
+.myData h5 { height:27px; padding-left:25px; font-weight:200; font-size:14px; background:url(http://images9.baihe.com/myData/icon.gif) no-repeat; overflow:hidden; zoom:1; }
+.myData .cbd { font-size:13px;}
+.myData .bt_red { color:#c66; background-position:0 -25px; }
+.myData .bt_blue { color:#399; background-position:0 -52px; }
+.myData .mainNav em,.myData .mainNav .label01 { background:url(http://images6.baihe.com/icon/icon_look.gif) no-repeat; }
+.myData .speed { float:right; width:335px; padding-top:3px; color:#bdbdbd; overflow:hidden; zoom:1;}
+.myData .speed .orangeT { width:65px; font-size:22px; font-family: Arial; text-align:center; }
+.myData .speed .box { float:right; position:relative; top:4px; _top:3px; width:200px; height:12px; border-radius:5px; background:#e3e3e3; overflow:hidden; zoom:1;}
+.myData .speed .strip { height:12px; border-radius:5px; background:#fdbf2d;}
+.myData .speed span { float:left; display:block; font-size:14px; line-height:24px;}
+.myData .mainNav { height:45px; background:url(http://images7.baihe.com/pic/bj_01.gif) repeat-x left bottom; zoom:1;}
+.myData .mainNav a { position:relative; display:block; float:left; width:163px; height:43px; font-size:16px; line-height:32px; color:#333; text-align:center; border-bottom:2px solid #facabe; zoom:1; }
+.myData .mainNav a:hover,.myData .mainNav a.active { color:#333; border-bottom:2px solid #fe4f22; text-decoration:none;}
+.myData .mainNav .num { position:absolute; top:-8px; height:15px; padding:0 5px 0 7px; line-height:13px; font-size:11px; color:#fff; border-radius:6px; background:#f00; zoom:1; }
+.myData .mainNav strong { display:block; height:41px; margin:0 auto;  cursor:pointer; overflow:hidden; zoom:1; }
+.myData .mainNav .angleB { display:none; position:absolute; left:50%; bottom:0px; _bottom:-1px; width:16px; height:9px; margin-left:-8px; background-position:0 -313px; overflow:hidden; zoom:1; }
+.myData .mainNav .label01 { width:64px; padding-left:26px; background-position:0px -831px;}
+.myData .mainNav a.active .angleB { display:block; }
+.myData .portrait { position:relative; height:165px; overflow:hidden; zoom:1;}
+.myData .portrait img { display:block; float:left; margin-right:24px; overflow:hidden;}
+.myData .portrait .txtL { position:absolute; top:110px; left:0px; width:120px; height:40px; font-size:18px; line-height:36px; text-align:center; background:#fff; filter:alpha(opacity=70); -moz-opacity:0.7; opacity:0.7; }
+.myData .circular { width:100px; height:100px; border-radius:50%;}
+.myData .portrait dl { float:left; width:480px; overflow:hidden; zoom:1; }
+.myData .portrait dl dt { height:48px; padding-top:8px; overflow:hidden; zoom:1; }
+.myData .portrait dl dd { padding:0 20px; color:#a5a5a5; background:url(http://images6.baihe.com/icon/icon_11.gif) no-repeat left 4px; overflow:hidden; zoom:1;}
+.myData .orange,.myData .red,.myData .grey { float:left; width:96px; height:32px; line-height:32px;  border-radius:3px; margin-left: 300px}
+.myData .grey { margin-left:22px; cursor:pointer}
+.myData .picList { width:828px; zoom:1;}
+.myData .picList .pic { position:relative; float:left; width:198px; height:198px; margin:0px; padding:3px; overflow:hidden; zoom:1;}
+.myData .picList .active { background:#e9e9e9; }
+.myData .picList .pic img { display:block; width:190px; height:190px; border:4px solid #fff;}
+.myData .picList .pic .icon { display:none; position:absolute; top:7px; right:7px; width:60px; height:23px; padding:7px 0 0 0; background:#000; overflow:hidden; zoom:1; }
+.myData .picList .pic .icon a,.myData .selPic .del a { display:inline-block; float:left; width:15px; height:15px; margin:0 7px; text-indent:-9999px; overflow:hidden; zoom:1;}
+.myData .picList .pic .icon .edit { background-position:0 -601px;}
+.myData .picList .pic .icon .del { background-position:0 -616px;}
+.myData .picList .pic .txt { display:none; position:absolute; bottom:7px; left:7px; width:170px; height:30px; padding:0 10px; line-height:30px; color:#000; background:#fff; filter:alpha(opacity=80); -moz-opacity:0.8; opacity:0.8; white-space:nowrap; word-break:keep-all; overflow:hidden; text-overflow:ellipsis;}
+.myData .explain { height:52px; margin:30px 0; padding:8px 30px 0 55px; font-size:16px; background:#f7f7f7 url(http://images9.baihe.com/myData/icon_02.gif) no-repeat 31px 11px; overflow:hidden; zoom:1;}
+.myData .upload { padding-bottom:30px; overflow:hidden; zoom:1;}
+.myData .upload .flash { float:left; width:440px; overflow:hidden; zoom:1;}
+.myData .right { float:right; width:255px; overflow:hidden; zoom:1; }
+.myData .right ul { width:225px; overflow:hidden; zoom:1; }
+.myData .right ul li { float:left; margin-right:7px; padding:0 0 10px; text-align:center; overflow:hidden; zoom:1;}
+.myData .right ul li img { display:block; }
+.myData .right ul li .ok { width:68px; height:85px; border:1px solid #62c4c0; }
+.myData .upload .img { float:left; width:120px; padding-right:75px; overflow:hidden; zoom:1;}
+.myData .upload .old { float:left; width:480px; overflow:hidden; zoom:1;}
+.myData .upload .old p { padding-bottom:15px;}
+.myData .prompt { padding:20px; color:#888; border:1px solid #ebf0f0; background:#fafdff; overflow:hidden; zoom:1; }
+.myData .prompt p { height:35px; font-size:14px;}
+.myData .prompt ul li { height:27px; overflow:hidden; zoom:1;}
+.myData .prompt span { color:#ff8b00;}
+.myData .prompt a { color:#ff8b00; text-decoration:underline;}
+.myData .selPic { position:relative; overflow:hidden; zoom:1;}
+.myData .selPic .icon { position:absolute; top:0px; width:41px; height:190px; overflow:hidden; zoom:1;}
+.myData .selPic .icon a { display:block; width:41px; height:190px; text-indent:-99999px; background:url(http://images6.baihe.com/icon/arrow.png) no-repeat; overflow:hidden; zoom:1; }
+.myData .selPic .icon a.next { background-position:0 0;}
+.myData .selPic .icon a.next:hover { background-position:0 -190px;}
+.myData .selPic .icon a.prev { background-position:-41px 0;}
+.myData .selPic .icon a.prev:hover { background-position:-41px -190px;}
+.myData .selPic .del { display:none; position:absolute; top:0px; right:0px; width:30px; height:23px; padding:7px 0 0 0; background:#000; overflow:hidden; zoom:1; }
+.myData .selPic .del a { background-position:0 -616px;}
+.myData .selPic .L { left:0px;}
+.myData .selPic .R { right:0px;}
+.myData .selPic ul { width:832px; overflow:hidden; zoom:1;}
+.myData .selPic ul li { position:relative; float:left; width:190px; padding-right:18px; overflow:hidden; zoom:1;}
+.myData .selPic ul li img { display:block; width:190px; height:190px; margin-bottom:5px;}
+.myData .selPic ul li .radioWrapper { padding-left:45px;}
+.myData .selPic .mr_frUl { padding:0 0 30px 0; overflow:hidden; zoom:1;}
+.myData .selPic .orange { float:none; width:120px; height:40px; margin:0 auto 30px; line-height:38px; font-size:16px; }
+.myData .selPic .cover { position:absolute; top:0px; left:0px; width:190px; height:70px; padding-top:120px; font-size:16px; line-height:28px; text-align:center; background:#fff; filter:alpha(opacity=70); -moz-opacity:0.7; opacity:0.7;}
+.myData .selPic .cover strong { font-size:23px; line-height:50px; }
+.myData .selPic .cover .icon { display:block; top:0px; right:0px; width:30px;}
+.myData .myUpload p { padding-top:120px; line-height:26px; color:#bdbdbd; text-align:center; }
+.myData .myUpload p .orange { float:none; width:170px; height:40px; font-size:16px; line-height:38px; margin:0 auto 20px; }
+.myData .myUpload .left { float:left; width:400px; overflow:hidden; zoom:1; }
+.myData .myUpload .left span { display:block; height:40px; font-size:15px; color:#252525}
+.myData .myUpload .left dl,.myData .upload .old dl { height:56px; overflow:hidden; zoom:1; }
+.myData .myUpload .left dl dt,.myData .upload .old dl dt { float:left; width:50px; height:30px; line-height:28px; overflow:hidden; zoom:1;}
+.myData .myUpload .left dl dd,.myData .upload .old dl dd { position:relative; float:left; width:325px; height:28px;  border:1px solid #ddd; cursor:pointer; overflow:hidden; zoom:1; }
+.myData .myUpload .left dl dd .orange,.myData .upload .old dl dd .orange { width:70px; height:30px; line-height:28px; border-radius:0px; }
+.myData .myUpload .left dl dd .inp,.myData .upload .old dl dd .inp { float:left; width:245px; height:28px; padding:0 5px; line-height:28px; border:0px;}
+.myData .myUpload .inpIe6,.myData .upload .old .inpIe6 { position:absolute; top:0; left:2px; width:329px; height:28px; line-height:28px; padding:0px; border:none; filter:alpha(opacity:0);opacity: 0;right: 0; cursor:pointer; }
+.myData .myUpload .right { float:right; width:290px; line-height:27px; color:#868686; overflow:hidden; zoom:1; }
+.myData .myUpload .right span { height:30px; padding-left:20px; font-size:15px; color:#888; background:url(http://images6.baihe.com/icon/icon_11.gif) no-repeat left center;}
+.myData .data .cont { float:left; width:400px; }
+.myData .data dl { height:40px; line-height:24px; color:#bdbdbd;}
+.myData .data dl dt { float:left; height:45px; overflow:hidden; zoom:1;}
+.myData .data dl dd { float:left; height:45px; }
+.myData .data .L dl dt { width:50px; }
+.myData .data .L dl dd { width:350px; }
+.myData .data .L .orange,.myData .data .L .grey { float:left; width:48px; height:20px; margin:2px 0 0 10px; font-size:13px; line-height:20px;}
+.myData .data .R dl dt { width:80px; }
+.myData .data .R dl dd { width:320px; }
+.myData .data .R01 dl dt { width:120px; }
+.myData .data .R01 dl dd { width:280px; }
+.myData .data .LP { padding-right:15px;}
+.myData .data a.orange { float:none; width:140px; height:40px; margin:0 auto; line-height:38px; font-size:16px;}
+.myData .data .icon { float:left; position:relative; top:6px; _top:5px; width:14px; height:13px; margin-left:10px; text-indent:-99999px; background-position:0 -631px;}
+.myData .data label { padding-right:15px;}
+.myData .data .R select,.myData .data .R01 select { width:150px;}
+.myData .data .blue { float:right; padding-bottom:10px;}
+.myData .data .cbd { line-height:40px;}
+.myData .data textarea { width:793px; height:278px; padding:10px; font-size:14px; border:1px solid #ccc; }
+.myData .data strong { font-family:Verdana; padding:0 3px;}
+.myData .data .iconA,.myMS dl dd .iconA { display:block; width:156px; height:24px; padding:0 20px 0 5px; color:#333; white-space:nowrap; word-break:keep-all; text-overflow:ellipsis; border:1px solid #ddd; background:url(http://images6.baihe.com/icon/droparrow.gif) no-repeat right center; overflow:hidden; zoom:1;}
+.myData .data .language,.myMS .language { position:absolute; top:25px; left:0px; width:230px; padding:5px; border:1px solid #ddd; background:#fff; z-index:20; overflow:hidden; zoom:1;}
+.myData .data .language ul li,.myMS .language ul li { float:left; width:50%; height:24px;}
+.myData .like { overflow:hidden; zoom:1; }
+.myData .like dl  { width:830px; padding-bottom:19px; line-height:24px; overflow:hidden; zoom:1; }
+.myData .like dl dt { float:left; width:68px; font-size:18px; color:#fff; text-align:center; overflow:hidden; zoom:1;}
+.myData .like dl dd { float:left; width:746px; padding-left:14px; overflow:hidden; zoom:1; }
+.myData .like dl dd a { position:relative; display:block; float:left; width:110px; height:110px; margin: 0 14px 14px 0; overflow:hidden; zoom:1; }
+.myData .like .imgIcon { display:block; width:110px; height:110px;}
+.myData .like .imgOk { position:absolute; top:0px; left:0px; display:block; width:110px; height:110px; background:url(http://images9.baihe.com/myData/like/click.png) no-repeat; cursor:pointer;}
+.myData .like .imgOver { position:absolute; top:0px; left:0px; display:none; width:110px; height:110px; background:url(http://images9.baihe.com/myData/like/Mouseover.png) no-repeat; cursor:pointer;}
+.myData .like .imgIcon:hover .imgOver { display:block;}
+.myData .like .h01 { height:80px; padding-top:30px; }
+.myData .like .h02 { height:144px; padding-top:90px; }
+.myData .like .bj01 { background:#a5c401; }
+.myData .like .bj02 { background:#00bfff; }
+.myData .like .bj03 { background:#ff8c8d; }
+.myData .like .bj04 { background:#f7b239; }
+
+/*---- 普通上传头像 ----*/
+.myData .photo{ padding:0px; overflow:hidden; zoom:1;}
+.myData .photo dl dt { float:left; width:310px; margin:0 30px 0 0; }
+.myData .photo dl dt img{ display:block; border:0; width:auto; height:auto; padding:4px;}
+.myData .photo dl dd { float:left; width:450px; line-height:29px; color:#868686; overflow:hidden; zoom:1; }
+.myData .photo dl dd strong { display:block; height:35px; font-size:16px; color:#333; }
+.myData .photo dl dd .orange { margin:15px 20px 0 0;}
+#Canvas{position: relative;width:308px;height:250px;border:1px solid #cfcfcf;overflow:hidden;cursor:pointer;}
+.Overlay{background-color:#ccc;}
+#Crop{position:relative;width: 308px;height:250px;z-index:7;top:0px;left:0px; opacity:0.7;filter:alpha(opacity=7);}
+.zoom{ border:1px solid #cfcfcf; background:url(http://images9.baihe.com/myData/zoom_bg.gif) repeat-x 0 bottom;}
+.zoom_bg{ width:242px; line-height:20px; background: url(http://images9.baihe.com/myData/zoom_steps.gif) no-repeat 4px 1px;}
+
+/*---- 浮层 ----*/
+.layer_setUp { position:absolute; top:50%; left:50%; width:390px; margin:-210px 0 0 -185px; padding-bottom:15px; font:13px/20px microsoft yahei; color:#666; border:1px solid #d3d3d3; box-shadow: #d3d3d3 0 0 8px;  background:#fff; z-index:30; overflow:hidden; zoom:1;}
+.layer_setUp .error { width:300px; margin:0px; padding:0 20px 0 23px; text-align:left; background-position:0 3px;}
+.layer_setUp h6 { height:70px; font-size:21px; line-height:68px; color:#252525; text-align:center; }
+.layer_setUp center img { position: relative; top:3px; margin-right:6px;}
+.layer_setUp ul { padding:30px 0 0 60px; overflow:hidden; zoom:1;}
+.layer_setUp ul li { padding-bottom:5px; overflow:hidden; zoom:1; }
+.layer_setUp label { color:#333; }
+.layer_setUp .cbd { color:#bdbdbd;}
+.layer_setUp .orange { width:70px; height:32px; line-height:30px; margin:10px 0 0 60px; }
+
+.editName { position:absolute; top:50%; left:50%; width:530px; height:210px; margin:-105px 0 0 -265px; font:13px/20px microsoft yahei; color:#666; z-index:60; overflow:hidden; zoom:1; }
+.editName .black { width:530px; height:210px; background:#000; filter:alpha(opacity=50); -moz-opacity:0.5; opacity:0.5; overflow:hidden; zoom:1;}
+.editName img { position:absolute; top:10px; left:10px; display:block; width:190px; height:190px; z-index:10;}
+.editName .cont { position:absolute; top:10px; right:10px; width:320px; height:190px; background:#fff; z-index:10; overflow:hidden; zoom:1; }
+.editName .orange { display:inline-block; float:right; width:68px; height:32px; margin:10px 25px 0 0; font-size:16px; line-height:30px; }
+.editName textarea { width:290px; height:110px; margin:25px 0 0 5px; border:1px solid #fff; }
+
+/*---- 择偶意向 ----*/
+.myMS { line-height:24px; zoom:1;  }
+.myMS .orange,.setting .orange { float:none; width:174px; height:40px; margin:25px auto 0; font-size:18px; line-height:38px; border-radius:2px; }
+.myMS dl { float:left; width:407px; zoom:1; }
+.myMS dl dt { position:relative; float:left; width:75px; height:40px; text-align:right; color:#bdbdbd;}
+.myMS dl dt span { position:absolute; top:3px; left:8px;  font-size:22px; color:#ff5026; }
+.myMS dl dd { float:left; width:332px; height:40px; zoom:1; }
+.myMS .selectWrapper ul { height:150px;}
+.myMS .language { width:171px;}
+.myMS .language ul li { float:none; width:100%; height:27px;}
+.myMS p { display:block; width:100%; clear:both; padding:35px 0; line-height:40px; overflow:hidden; zoom:1; }
+
+/*---- 个人设置 ----*/
+.setting .ok { float:left; margin-left:6px; padding-left:26px; text-indent:-99999px; background:url(http://images6.baihe.com/icon/icon_12.gif) no-repeat left center;}
+.setting .error { padding-left:26px; background:url(http://images6.baihe.com/icon/icon_13.gif) no-repeat left center;}
+.password { padding:53px 0 0 0; overflow:hidden; zoom:1;}
+.password input { width:280px; height:28px;}
+.password dl { padding-bottom:10px; overflow:hidden; zoom:1;}
+.password dl dt { float:left; width:265px; height:60px; padding-right:15px; font:18px/30px "icrosoft Yahei"; color:#666; text-align:right; overflow:hidden; zoom:1;}
+.password dl dd { float:left; width:530px; height:60px; line-height:30px; overflow:hidden; zoom:1;}
+.account { padding-top:20px; overflow:hidden; zoom:1; }
+.account label { margin-right:30px;}
+.account dl,.account { padding:10px 0 0; line-height:24px; overflow:hidden; zoom:1;}
+.account dl dt { float:left; overflow:hidden; zoom:1;}
+.account dl dd,.account ul li { overflow:hidden; zoom:1; }
+.account ul { padding-bottom:30px;}
+.account ul li { padding-bottom:12px;}
+.account ul li .orangeT { padding-left:24px;}
+.account .cbd { padding-left:0px; margin-right:0px;}
+
+/*---- 黑名单 ----*/
+.blackList { padding-top:30px; overflow:hidden; zoom:1; }
+.blackList .list { overflow:hidden; zoom:1; }
+.blackList .list dl { float:left; width:407px; height:170px; overflow:hidden; zoom:1; }
+.blackList .list dl dt { float:left; width:137px; height:150px; overflow:hidden; zoom:1; }
+.blackList .list dl dd { float:left; width:250px; padding-right:20px; overflow:hidden; zoom:1;}
+.blackList .orange { display:block; width:80px; height:27px; line-height:25px; font-size:13px; border-radius:3px;}
+.blackList .txt { height:123px; line-height:21px; color:#333; overflow:hidden; zoom:1; }
+.blackList .txt a.link { font-size:16px; text-decoration:none; color:#333; }
+.blackList .txt a.link img { position:relative; top:3px; margin-left:8px;}
+.blackList .txt span { display:block; padding:10px 0;}
+.blackList .page { float:right; padding:20px 20px 0; line-height:20px; overflow:hidden; zoom:1;}
+.blackList .page a { float:left; display:block; width:21px; height:21px; text-indent:-9999px; background:url(http://images6.baihe.com/icon/icon_look.gif) no-repeat; overflow:hidden; zoom:1;}
+.blackList .page .num { float:left; padding:0 10px; overflow:hidden; zoom:1;}
+.blackList .page .prev { background-position:0 -334px;}
+.blackList .page .prevOver { background-position:-21px -334px; }
+.blackList .page .next { background-position:-42px -334px; }
+.blackList .page .nextOver { background-position:-63px -334px; }
+.blackList .contNo { height:120px; padding:50px 0 0 240px; font-size:16px; line-height:26px; background:url(http://images9.baihe.com/myData/icon_04.gif) no-repeat 110px 50px; overflow:hidden; zoom:1; }
+.blackList .contNo p { color:#666; font-size:18px; padding-bottom:20px;}
+
+/*---- 广告 ----*/
+.scrollULeft { display:block; position:fixed; _position:absolute; width:135px; text-align:center; bottom:80px; left:1%; overflow:hidden; zoom:1; z-index:100;}
+.scrollULeft a { width:135px; }
